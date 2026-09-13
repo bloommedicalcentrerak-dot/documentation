@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-04 17:33+0000\n"
 "PO-Revision-Date: 2026-08-27 15:56+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
@@ -237,7 +237,7 @@ msgstr "O painel de Códigos de Barras com uma contagem atribuída."
 #: ../../content/applications/inventory_and_mrp/purchase/manage_deals/control_bills.rst:17
 #: ../../content/applications/inventory_and_mrp/purchase/manage_deals/purchase_templates.rst:20
 #: ../../content/applications/inventory_and_mrp/purchase/manage_deals/rfq.rst:17
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:23
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:31
 #: ../../content/applications/inventory_and_mrp/quality/quality_management/failure_locations.rst:19
 msgid "Configuration"
 msgstr "Configuração"
@@ -18629,7 +18629,7 @@ msgid "The Inventory dashboard with the Prepare Batch option highlighted."
 msgstr "O painel Inventário com a opção Preparar lote destacada."
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.rst:52
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:241
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:268
 msgid "On the batch transfer form, fill the following fields out accordingly:"
 msgstr ""
 "No formulário de transferência de lote, preencha os seguintes campos "
@@ -23805,11 +23805,11 @@ msgstr ""
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:22
 msgid ""
-"Enable and configure the :ref:`Mapbox integration <general/integrations/"
-"geolocation-routes>`."
+"Enable and configure the :ref:`Mapbox integration <inventory/"
+"shipping_receiving/mapbox-integration>`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:23
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:24
 msgid ""
 "Configure vehicle :ref:`capacity (volume and weight) <inventory/"
 "shipping_receiving/vehicle-capacity>`."
@@ -23817,11 +23817,11 @@ msgstr ""
 "Configurar a :ref:`capacidade do veículo (volume e peso) <inventory/"
 "shipping_receiving/vehicle-capacity>`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:25
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:26
 msgid "Enter vehicle :doc:`car models <../../../../hr/fleet/models>`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:26
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:27
 msgid ""
 "Set up :ref:`vehicles as delivery methods <inventory/shipping_receiving/"
 "delivery-method-for-carrier>`."
@@ -23829,34 +23829,34 @@ msgstr ""
 "Configurar os :ref:`veículos como métodos de entrega <inventory/"
 "shipping_receiving/delivery-method-for-carrier>`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:28
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:29
 msgid "Create :ref:`dock locations <inventory/shipping_receiving/docks>`."
 msgstr "Criar :ref:`locais de docas <inventory/shipping_receiving/docks>`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:31
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:32
 msgid ""
 "Dispatch management can evaluate capacity on a vehicle **only** if a weight "
 "and volume are assigned to a product on the *Inventory* tab of its product "
 "form."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:37
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:38
 msgid "Inventory settings"
 msgstr "Definições de inventário"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:39
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:40
 msgid ""
 "To set the required inventory settings, navigate "
 "to :menuselection:`Inventory app --> Configuration --> Settings`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:42
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:43
 msgid ""
 "In the *Operations* section, select the :guilabel:`Batch, Wave & Cluster "
 "Transfers` checkbox to prepare batches of orders for delivery."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:45
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:46
 msgid ""
 "In the *Shipping* section, select the :guilabel:`Delivery Methods` "
 "and :guilabel:`Dispatch Management System` checkboxes. Doing so allows "
@@ -23864,30 +23864,80 @@ msgid ""
 "delivery-method-for-carrier>`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:49
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:50
 msgid ""
 "In the *Warehouse* section, select the :guilabel:`Storage Locations` "
 "checkbox to assign specific locations in the warehouse as loading zones for "
 "delivery trucks."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:52
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:53
 msgid ""
-"Once all the configurations are complete, be sure to click :guilabel:`Save`."
+"Then, once all the configurations are complete, be sure to "
+"click :guilabel:`Save`."
 msgstr ""
+"Em seguida, quando todas as configurações estiverem concluídas, não se "
+"esqueça de clicar em :guilabel:`Salvar`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:54
-msgid ""
-"Then, enable and configure the :ref:`Mapbox integration <general/"
-"integrations/geolocation-routes>` to be able to create :ref:`delivery routes "
-"<inventory/shipping_receiving/delivery-route>`."
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:58
+msgid "Mapbox integration"
 msgstr ""
 
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:60
+msgid "Next, configure the `Mapbox <https://www.mapbox.com/>`_ integration."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:62
+msgid ""
+"First, `create a Mapbox account <https://account.mapbox.com/auth/signup/>`_. "
+"If you already have a MapBox account, `log in <https://account.mapbox.com/"
+"auth/signin/>`_. Upon login, the *Account overview* page displays."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:66
+msgid ""
+"Then, `create an access token <https://docs.mapbox.com/help/dive-deeper/"
+"access-tokens/>`_."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:68
+msgid "After the token is created, copy it to the clipboard."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:71
+msgid ""
+"If you have created a secret token, Mapbox does not display secret tokens "
+"again after leaving the *Access tokens* page. Make a copy of this token now."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:75
+msgid ""
+"`How to use Mapbox securely: Access tokens <https://docs.mapbox.com/help/"
+"dive-deeper/how-to-use-mapbox-securely/#access-tokens>`_"
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:77
+msgid ""
+"`URL restrictions <https://docs.mapbox.com/accounts/guides/tokens/#url-"
+"restrictions>`_"
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:79
+msgid ""
+"In Odoo, navigate to the :menuselection:`Settings` app. In the "
+"*Integrations* section, locate the :guilabel:`Map Routes` setting. Paste the "
+"token in the :guilabel:`Token` field."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:82
+msgid "Be sure to click :guilabel:`Save` to save the settings."
+msgstr ""
+
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:87
 msgid "Vehicle capacity"
 msgstr "Capacidade do veículo"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:62
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:89
 msgid ""
 "To configure the vehicle capacity, go to :menuselection:`Fleet app --> "
 "Configuration --> Categories`."
@@ -23895,7 +23945,7 @@ msgstr ""
 "Para configurar a capacidade do veículo, vá para :menuselection:`app Frota --"
 "> Configuração --> Categorias`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:65
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:92
 msgid ""
 "Next, click :guilabel:`New` to add a new category, or click into an existing "
 "category to modify it. In the :guilabel:`Name` field, enter the type of "
@@ -23914,7 +23964,7 @@ msgstr ""
 msgid "Vehicle categories with defined weight and volume."
 msgstr "Categorias de veículos com peso e volume definidos."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:75
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:102
 msgid ""
 "The units of measurement for vehicle capacity are assigned at the global "
 "level in the **Settings** app, in the :guilabel:`Units of Measure` section."
@@ -23926,15 +23976,15 @@ msgstr ""
 msgid "Show units of measure settings."
 msgstr "Definições de unidades de medida."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:82
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:109
 msgid ":ref:`Vehicle category <fleet/categories>`"
 msgstr ":ref:`Categoria do veículo <fleet/categories>`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:86
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:113
 msgid "Car model"
 msgstr "Modelo de carro"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:88
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:115
 msgid ""
 "Configuring a vehicle's car model is required when adding vehicles in Odoo. "
 "Ensure the correct *Category* is selected for a car model. Doing so "
@@ -23946,7 +23996,7 @@ msgstr ""
 "modelo de carro. Isso aplica automaticamente as capacidades de peso e volume "
 "a todos os veículos desse tipo."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:92
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:119
 msgid ""
 "To configure, navigate to :menuselection:`Fleet app --> Configuration --> "
 "Models`."
@@ -23954,7 +24004,7 @@ msgstr ""
 "Para configurar, navegue até :menuselection:`app Frotas --> Configuração --> "
 "Modelos`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:94
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:121
 msgid ""
 "From the :guilabel:`Models` list, select an existing model, or "
 "click :guilabel:`New` in the top-left corner to create a new model. Then, "
@@ -23965,21 +24015,21 @@ msgstr ""
 "seguida, defina o campo :guilabel:`Categoria` para a categoria de veículo em "
 "questão."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:99
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:126
 msgid ":doc:`Create car model <../../../../hr/fleet/models>`"
 msgstr ":doc:`Criar modelo de carro <../../../../hr/fleet/models>`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:104
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:131
 #: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.rst:92
 msgid "Delivery method"
 msgstr "Método de entrega"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:106
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:133
 msgid ""
 "Optionally, delivery vehicles can be assigned as a delivery method *carrier*."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:108
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:135
 msgid ""
 "To configure delivery methods, go to :menuselection:`Inventory app --> "
 "Configuration --> Delivery Methods`. Select an existing delivery method, or "
@@ -23989,11 +24039,11 @@ msgstr ""
 "Inventário --> Configuração --> Métodos de entrega`. Selecione um método de "
 "entrega existente ou clique em :guilabel:`Novo`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:112
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:139
 msgid ":doc:`Configure delivery method <../setup_configuration>`"
 msgstr ":doc:`Configurar o método de entrega <../setup_configuration>`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:114
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:141
 msgid ""
 "On the :guilabel:`Delivery Method` form, enter a name for the delivery "
 "method. It is recommended to use identifying information, such as the "
@@ -24003,7 +24053,7 @@ msgstr ""
 "Recomenda-se usar informações de identificação, como a descrição do veículo "
 "e o número da placa (ex.: `Caminhão 123-ABCD`)."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:118
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:145
 msgid ""
 "Since the delivery methods are managed internally, set "
 "the :guilabel:`Provider` to either :guilabel:`Fixed Price` "
@@ -24017,7 +24067,7 @@ msgstr ""
 "calculados, consulte o artigo :doc:`Método de entrega <../"
 "setup_configuration>`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:122
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:149
 msgid ""
 "Next, set a :guilabel:`Delivery Product`, which is the product that shows up "
 "as the customer's :ref:`delivery charge <inventory/shipping/sales-order>` on "
@@ -24027,7 +24077,7 @@ msgstr ""
 "aparece como a :ref:`taxa de entrega <inventory/shipping/sales-order>` do "
 "cliente no pedido de venda ou na fatura."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:125
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:152
 msgid ""
 "Optionally, in the :guilabel:`Availability` tab, set "
 "the :guilabel:`Countries`, :guilabel:`States`, or :guilabel:`Zip Prefixes` "
@@ -24043,18 +24093,18 @@ msgid ""
 "code."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:134
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:161
 msgid "Dock locations"
 msgstr "Locais de doca"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:136
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:163
 msgid ""
 "Each loading dock must have a dedicated location. To create dock locations, "
 "go to :menuselection:`Inventory app --> Configuration --> Locations` and "
 "click :guilabel:`New`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:139
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:166
 msgid ""
 "After dock locations are set up in Odoo, configure them in the operation "
 "type. Navigate to :menuselection:`Inventory app --> Configuration --> "
@@ -24062,7 +24112,7 @@ msgid ""
 "click :guilabel:`New` to create a new one."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:143
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:170
 msgid ""
 "After defining the other fields in the operation type form, scroll to the "
 "*Batch & wave transfers* section and select the :guilabel:`Dispatch "
@@ -24074,19 +24124,19 @@ msgstr ""
 msgid "Location configuration."
 msgstr "Configuração de local."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:151
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:178
 msgid ":doc:`../../warehouses_storage/inventory_management/use_locations`"
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:152
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:179
 msgid ":doc:`../../warehouses_storage/inventory_management/operation_type`"
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:155
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:182
 msgid "Build loads"
 msgstr "Estruturar cargas"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:157
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:184
 msgid ""
 "After setup is complete, optionally :ref:`assign orders to a carrier "
 "<inventory/shipping_receiving/assign-carrier>` and :ref:`group them into "
@@ -24094,7 +24144,7 @@ msgid ""
 "the batch form <inventory/shipping_receiving/batch-form>`, as needed."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:162
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:189
 msgid ""
 "To group products, go to the :menuselection:`Inventory app --> Operations --"
 "> Deliveries`, which reveals a list of outgoing deliveries."
@@ -24102,36 +24152,36 @@ msgstr ""
 "Para agrupar produtos, vá para a seção :menuselection:`app Inventário --> "
 "Operações --> Entregas`, que aba uma lista de entregas enviadas."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:166
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:193
 msgid ""
 "Because this article is about a specific use case, explore details about "
 "each picking method in their dedicated articles."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:169
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:196
 msgid ":doc:`../picking_methods/batch`"
 msgstr ":doc:`../picking_methods/batch`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:170
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:197
 msgid ":doc:`Wave picking <../picking_methods/wave>`"
 msgstr ":doc:`Separação em ondas <../picking_methods/wave>`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:171
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:198
 msgid ":doc:`../picking_methods/cluster`"
 msgstr ":doc:`../picking_methods/cluster`"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:176
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:203
 msgid "Carrier assignment"
 msgstr "Atribuição de transportadora"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:178
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:205
 msgid ""
 "Reveal the *Carrier* column, if it is not visible by default, by clicking "
 "the :icon:`oi-settings-adjust` :guilabel:`(settings)` icon in the top-right "
 "corner, and selecting the :guilabel:`Carrier` checkbox."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:183
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:210
 msgid ""
 "Other useful columns to enable can be :guilabel:`Zip` "
 "code, :guilabel:`Shipping Weight`, and :guilabel:`Shipping Volume`."
@@ -24140,7 +24190,7 @@ msgstr ""
 "de :guilabel:`CEP`, :guilabel:`Peso da renessa` e :guilabel:`Volume da "
 "remessa`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:186
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:213
 msgid ""
 "Select the delivery orders for the batch by selecting the checkboxes on the "
 "left. Next, click into the line's :guilabel:`Carrier` fields. In the "
@@ -24151,11 +24201,11 @@ msgid ""
 "is updated for all the selected records."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:195
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:222
 msgid "Set carrier."
 msgstr "Definir transportadora."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:195
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:222
 msgid ""
 "The delivery method `Truck 1-MER-001` is set as the :guilabel:`Carrier` for "
 "two delivery orders."
@@ -24163,11 +24213,11 @@ msgstr ""
 "O método de entrega `Truck 1-MER-001` definido "
 "como :guilabel:`Transportadora` em dois pedidos de entrega."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:200
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:227
 msgid "Create batch"
 msgstr "Criar lote"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:202
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:229
 msgid ""
 "With the carrier set, begin adding orders to a batch or wave transfer by "
 "ticking the checkbox."
@@ -24175,7 +24225,7 @@ msgstr ""
 "Com a transportadora definida, comece a adicionar pedidos a uma "
 "transferência em onda ou em lote marcando a caixa de seleção."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:205
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:232
 msgid ""
 "If a delivery order is already assigned to a batch transfer, assigning a "
 "batch transfer here does **not** update it."
@@ -24183,7 +24233,7 @@ msgstr ""
 "Se um pedido de entrega já estiver atribuído a uma transferência em lote, a "
 "atribuição de uma transferência em lote aqui **não** a atualizará."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:208
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:235
 msgid ""
 "Then, click the :icon:`fa-cog` :guilabel:`Actions` button, and click "
 "either :guilabel:`Add to batch` or :guilabel:`Add to wave`. In the pop-up "
@@ -24196,21 +24246,21 @@ msgstr ""
 "como :guilabel:`uma nova transferência [lote/onda]` e, em seguida, clique "
 "em :guilabel:`Confirmar`."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:215
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:242
 msgid "Example wave."
 msgstr "Exemplo de onda."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:215
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:242
 msgid "Delivery orders are selected to be grouped into a wave transfer."
 msgstr ""
 "Pedidos de entrega selecionados para serem agrupados em uma transferência em "
 "lote."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:218
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:245
 msgid "Alternative batch creation method"
 msgstr "Método alternativo para criação de lotes"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:220
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:247
 msgid ""
 "Another place to create batches is by going to "
 "the :menuselection:`Inventory` app, and in the :guilabel:`Delivery Orders` "
@@ -24218,7 +24268,7 @@ msgid ""
 "In the resulting drop-down menu, click :guilabel:`Prepare batch`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:225
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:252
 msgid ""
 "The :guilabel:`Transport Management` drop-down menu contains other tools for "
 "fleet management:"
@@ -24226,11 +24276,11 @@ msgstr ""
 "O menu suspenso :guilabel:`Gerenciamento de transporte` contém outras "
 "ferramentas para gerenciamento de frotas:"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:227
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:254
 msgid ":guilabel:`Manage Batches`: open list of batches"
 msgstr ":guilabel:`Gerenciar lotes`: abre a lista de lotes"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:228
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:255
 msgid ""
 ":guilabel:`Dock Dispatching`: open weekly calendar view of scheduled batch "
 "operations"
@@ -24238,7 +24288,7 @@ msgstr ""
 ":guilabel:`Despacho em docas`: abre a visualização do calendário semanal das "
 "operações em lote programadas"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:229
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:256
 msgid ""
 ":guilabel:`Batches by Route`: Kanban view of batches grouped by fulfillment "
 "route"
@@ -24246,13 +24296,13 @@ msgstr ""
 ":guilabel:`Lotes por rota`: Visualização Kanban de lotes agrupados por rota "
 "de logística"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:230
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:257
 msgid ":guilabel:`Calendar`: open hourly calendar view of scheduled operations"
 msgstr ""
 ":guilabel:`Calendário`: abre o calendário das operações programadas na "
 "visualização de hora em hora"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:231
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:258
 msgid ":guilabel:`Statistics`: open pivot table of the batch transfers"
 msgstr ""
 ":guilabel:`Estatísticas`: abre uma tabela de pivô das transferências em lote"
@@ -24261,47 +24311,47 @@ msgstr ""
 msgid "Show prepare batch option from the Transport Management drop-down menu."
 msgstr "Opção Preparar lote no menu suspenso Gerenciamento de transporte."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:239
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:266
 msgid "Batch form"
 msgstr "Formulário de lote"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:243
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:270
 msgid ""
 ":guilabel:`Responsible`: Assign an employee to the picking. Leave blank if "
 "*any* worker can fulfill this picking."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:245
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:272
 msgid ""
 ":guilabel:`Operation Type`: From the drop-down menu, select the operation "
 "type under which the picking is categorized."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:247
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:274
 msgid ""
 ":guilabel:`Scheduled Date`: Specify the date by which "
 "the :guilabel:`Responsible` person should complete the transfer to the "
 "output location."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:249
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:276
 msgid ":guilabel:`Dock Location`: Select the loading location."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:250
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:277
 msgid ""
 ":guilabel:`Vehicle`: Select the vehicle, which will auto-fill "
 "the :guilabel:`Vehicle Category`."
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:251
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:278
 msgid ""
 ":guilabel:`Vehicle Category`: Determine if the order exceeds "
 "the :ref:`vehicle's capacity limits <inventory/shipping_receiving/vehicle-"
 "capacity>`"
 msgstr ""
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:255
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:282
 msgid ""
 "The :guilabel:`Volume` bar indicates that the transport truck is nearing "
 "capacity."
@@ -24311,11 +24361,11 @@ msgstr ""
 msgid "Show batch form."
 msgstr "Formulário de lote."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:263
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:288
 msgid "Prepare delivery route"
 msgstr "Preparar rota de entrega"
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:265
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:290
 msgid ""
 "To help the driver prepare, click the :guilabel:`Map` button at the top of "
 "the batch or wave form to view delivery destinations on a map. Selecting an "
@@ -24326,7 +24376,7 @@ msgstr ""
 "de entrega em um mapa. A seleção de um pedido de entrega individual indica "
 "sua localização."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:269
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:294
 msgid ""
 "The :guilabel:`Map` button is only visible for transfers with "
 "the :guilabel:`In progress` status."
@@ -24338,7 +24388,7 @@ msgstr ""
 msgid "Show map in Odoo, with information of the delivery orders."
 msgstr "Mostrar mapa no Odoo, com informações dos pedidos de entrega."
 
-#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:274
+#: ../../content/applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dispatch.rst:299
 msgid ""
 "Additionally, use the :guilabel:`View in Google Maps` button to generate a "
 "route from the warehouse to the delivery points."
@@ -43786,7 +43836,7 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.rst:90
 #: ../../content/applications/inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.rst:159
 #: ../../content/applications/inventory_and_mrp/purchase/products/reordering.rst:77
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:19
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:27
 msgid ""
 ":doc:`../../inventory/warehouses_storage/replenishment/reordering_rules`"
 msgstr ""
@@ -61372,7 +61422,7 @@ msgstr ""
 msgid "Temporary reordering rules"
 msgstr "Regras de reposição temporária"
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:8
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:5
 msgid ""
 "Some businesses require certain products to always have a minimum quantity "
 "of stock on-hand at any given time. To avoid stock falling below a certain "
@@ -61385,22 +61435,66 @@ msgstr ""
 "podem criar *regras de reposição* no Odoo para automatizar pedidos de compra "
 "de produtos específicos."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:12
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:9
 msgid ""
-"In certain cases, businesses might opt for *temporary* reordering rules when "
-"they do not want specific products to be replenished automatically. In Odoo, "
-"a *temporary* reordering rule is created in the replenishment dashboard when "
-"a product is configured with a *Buy* route, has no reordering rule "
-"configured, has `0` quantity in stock, and is included in a sales order. "
+"Reordering rules keep the forecasted stock levels above a certain threshold, "
+"without exceeding a specified upper limit, or maximum amount. When a product "
+"with a reordering rule falls below a specified quantity, Odoo generates an "
+"order using the specified *route* (e.g. *Buy* or *Manufacture*) to replenish "
+"the stock."
+msgstr ""
+"As regras de reposição mantêm os níveis de estoque previstos acima de um "
+"determinado limite, sem exceder o limite superior ou a quantidade máxima "
+"indicada. Quando um produto com uma regra de reposição fica abaixo de uma "
+"quantidade especificada, o Odoo gera um pedido usando a *rota* especificada "
+"(ex.: *Comprar* ou *Fabricar*) para repor o estoque."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:14
+msgid ""
+"In certain cases, businesses might opt for *temporary reordering rules* when "
+"they do not want specific products to be replenished automatically."
+msgstr ""
+"Em certos casos, as empresas podem optar por *regras de reposição "
+"temporária* quando não quiserem que produtos específicos sejam repostos "
+"automaticamente."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:17
+msgid ""
+"In Odoo, a \"temporary\" reordering rule is created in the replenishment "
+"dashboard when a product:"
+msgstr ""
+"No Odoo, uma regra de reposição \"temporária\" é criada no painel de "
+"reposição quando um produto:"
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:19
+msgid "is configured with a *Buy* route"
+msgstr "está configurado com uma rota *Comprar*"
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:20
+msgid "has no reordering rule configured"
+msgstr "não tem nenhuma regra de reposição configurada"
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:21
+msgid "has `0` quantity in stock"
+msgstr "tem `0` quantidade em estoque"
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:22
+msgid "is included in a sales order (SO)."
+msgstr "está incluído em um pedido de vendas (SO)."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:24
+msgid ""
 "This rule is deleted upon confirmation of the purchase order (PO) generated "
 "for the product."
 msgstr ""
+"Essa regra é excluída após a confirmação do pedido de compra (PO) gerado "
+"para o produto."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:20
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:28
 msgid ":doc:`../../purchase/products/reordering`"
 msgstr ":doc:`../../purchase/products/reordering`"
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:25
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:33
 msgid ""
 "To configure a product that triggers temporary reordering rules when its "
 "stock reaches `0`, begin by going to :menuselection:`Inventory app --> "
@@ -61410,7 +61504,7 @@ msgstr ""
 "seu estoque atinge `0`, comece acessando :menuselection:`app Inventário --> "
 "Produtos --> Produtos` e clique em :guilabel:`Novo`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:29
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:37
 msgid ""
 "The same configurations can also be made on an existing product, by going "
 "to :menuselection:`Inventory app --> Products --> Products`, and selecting "
@@ -61420,58 +61514,78 @@ msgstr ""
 "acessando :menuselection:`app Inventário --> Produtos --> Produtos` e "
 "selecionando um produto existente."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:32
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:40
 msgid ""
-"On the product form, enter the product name, and ensure "
-"the :guilabel:`Sales` and :guilabel:`Purchase` options are enabled, located "
+"On the product form, enter the product name, and ensure the :guilabel:`Can "
+"be Sold` and :guilabel:`Can be Purchased` options are enabled, located "
 "beneath the :guilabel:`Product Name` field."
 msgstr ""
+"No formulário do produto, digite o nome do produto e verifique se as "
+"opções :guilabel:`Pode ser vendido` e :guilabel:`Pode ser comprado` estão "
+"ativadas, localizadas abaixo do campo :guilabel:`Nome do produto`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:35
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:44
 msgid ""
-"On the *General Information* tab, leave :guilabel:`Product Type` set "
-"to :guilabel:`Goods`, and ensure :guilabel:`Track Inventory` is checked, "
-"with :guilabel:`By Quantity` selected."
+"Then, set the :guilabel:`Product Type` to `Storable Product`, under "
+"the :guilabel:`General Information` tab."
 msgstr ""
+"Em seguida, defina o :guilabel:`Tipo de produto` como `Produto armazenável`, "
+"na aba :guilabel:`Informações gerais`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:38
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:47
 msgid ""
-"Next, click the *Purchase* tab, and under :guilabel:`Vendor`, "
-"click :guilabel:`Add a line` and select a vendor from the drop-down menu. "
-"Then, set a purchase price under :guilabel:`Unit Price`."
+"Next, click the :guilabel:`Purchase` tab, and under :guilabel:`Vendor`, "
+"click :guilabel:`Add a line` to select a vendor from the drop-down menu. "
+"Then, set a purchase price under :guilabel:`Price`."
 msgstr ""
+"Em seguida, clique na aba :guilabel:`Compra` e, em :guilabel:`Fornecedor`, "
+"clique em :guilabel:`Adicionar uma linha` para selecionar um fornecedor no "
+"menu suspenso. Em seguida, defina um preço de compra em :guilabel:`Preço`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:42
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:51
 msgid ""
-"A vendor **must** be set for temporary reordering rules to work. Attempting "
-"to replenish the product from the *Replenishment* dashboard in the "
-"**Inventory** app without one triggers a warning to add a vendor on the "
-"product form."
+"A vendor **must** be set for temporary reordering rules to work. While "
+"a :abbr:`PO (purchase order)` can still be created automatically, attempting "
+"to replenish the product from the :guilabel:`Replenishment` dashboard in the "
+"*Inventory* app triggers a warning to add a vendor on the product form."
 msgstr ""
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:46
-msgid ""
-"Before creating an |SO| for the product, ensure the :guilabel:`Quantity On "
-"Hand` field, on the *General Information* tab, reads `0.00 Units`. Then, "
-"ensure that the :icon:`fa-refresh` :guilabel:`Reordering Rules` smart button "
-"reads `0`, indicating there are no rules applied to this product."
-msgstr ""
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:52
-msgid ""
-"If the button bar is full, the *Reordering Rules* smart button is located "
-"under the *More* dropdown."
-msgstr ""
+"Um fornecedor **deve** ser definido para que as regras de reposição "
+"temporária funcionem. Embora um :abbr:`PC (pedido de compra)` ainda possa "
+"ser criado automaticamente, a tentativa de repor o produto no "
+"painel :guilabel:`Reposição` no aplicativo *Inventário* aciona um aviso para "
+"adicionar um fornecedor no formulário do produto."
 
 #: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:0
-msgid "The smart buttons bar with the more option selected."
+msgid "Warning pop-up upon clicking to replenish product with no set vendor."
 msgstr ""
+"Pop-up de aviso ao clicar para repor o produto sem um fornecedor definido."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:59
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:60
+msgid ""
+"Before creating a :abbr:`SO (sales order)` for the product, ensure "
+"the :guilabel:`On Hand` smart button on the product form reads `0.00 Units`. "
+"Then, ensure that the :guilabel:`Reordering Rules` smart button reads `0`, "
+"indicating there are no rules applied to this product."
+msgstr ""
+"Antes de criar um :abbr:`PV (pedido de venda)` para o produto, certifique-se "
+"de que o botão inteligente :guilabel:`Em mãos` no formulário do produto "
+"indique `0.00 unidades`. Em seguida, certifique-se de que o botão "
+"inteligente :guilabel:`Regras de reposição` exiba `0`, indicando que não há "
+"regras aplicadas a esse produto."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:None
+msgid ""
+"Product form smart button row displaying reordering rules and on hand "
+"buttons."
+msgstr ""
+"Linha de botões inteligentes do formulário do produto exibindo os botões "
+"\"Regras de reposição\" e \"Em mãos\"."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:69
 msgid "Trigger temporary reordering rule"
 msgstr "Acionar a regra de reposição temporária"
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:61
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:71
 msgid ""
 "To trigger a temporary reordering rule, create a new sales order for a "
 "product by navigating to :menuselection:`Sales app --> New`."
@@ -61479,26 +61593,39 @@ msgstr ""
 "Para acionar uma regra de reposição temporária, crie um novo pedido de "
 "vendas para um produto navegando até :menuselection:`app Vendas --> Novo`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:64
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:74
 msgid ""
 "Then, add a customer in the :guilabel:`Customer` field, and "
-"click :guilabel:`Add a product` under the :guilabel:`Product` column in the "
-"*Order Lines* tab. Next, select the desired product from the drop-down menu. "
-"Lastly, :guilabel:`Confirm` the |SO|."
+"click :guilabel:`Add a product` under the :guilabel:`Product` column in "
+"the :guilabel:`Order Lines` tab. Next, select the desired product from the "
+"drop-down menu. Lastly, :guilabel:`Confirm` the :abbr:`SO (sales order)`."
 msgstr ""
+"Em seguida, adicione um cliente no campo :guilabel:`Cliente` e clique "
+"em :guilabel:`Adicionar um produto` na coluna :guilabel:`Produto` na "
+"aba :guilabel:`Linhas do pedido`. Em seguida, selecione o produto desejado "
+"no menu suspenso. Por fim, :guilabel:`confirme` o :abbr:`PV`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:71
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:None
+msgid "Sales order for product with no set reordering rules."
+msgstr "Pedido de vendas de produto sem regras de reposição definidas."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:85
 msgid "Check replenishment report"
 msgstr "Verificar relatório de reposição"
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:73
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:87
 msgid ""
 "To see the temporary reordering rule created for the out-of-stock product "
 "included in the sales order, navigate to :menuselection:`Inventory app --> "
-"Operations --> Replenishment`. Doing so opens the *Replenishment* dashboard."
+"Operations --> Replenishment`. Doing so opens the :guilabel:`Replenishment` "
+"dashboard."
 msgstr ""
+"Para ver a regra de reposição temporária criada para o produto fora de "
+"estoque incluído no pedido de venda, navegue até :menuselection:`app "
+"Inventário --> Operações --> Reposição`. Isso abre o "
+"painel :guilabel:`Reposição`."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:77
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:91
 msgid ""
 "On this dashboard, locate the product for which the temporary reordering "
 "rule was created. On its product line, its :guilabel:`On Hand` quantity, "
@@ -61511,69 +61638,94 @@ msgstr ""
 "em :guilabel:`Previsão`, a :guilabel:`Rota` *Comprar* e a "
 "quantidade :guilabel:`A pedir` para reposição."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:81
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:95
 msgid ""
-"Additionally, three replenishment options are located to the far-right of "
-"the row: :icon:`fa-truck` :guilabel:`Order`, :icon:`fa-"
-"refresh` :guilabel:`Automate`, and :icon:`fa-bell-slash` :guilabel:`Snooze`."
+"Additionally, two replenishment options are located to the far-right of the "
+"row: :guilabel:`Order Once` and :guilabel:`Automate`."
 msgstr ""
+"Além disso, duas opções de reposição estão localizadas na extremidade "
+"direita da linha: :guilabel:`Pedir uma vez` e :guilabel:`Automatizar`."
 
 #: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:None
 msgid "Replenishment report displaying temporary reordering rule and options."
 msgstr ""
 "Relatório de reposição que exibe a regra e as opções de reposição temporária."
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:88
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:102
 msgid ""
-"To use the one-time, temporary reordering rule, click :icon:`fa-"
-"truck` :guilabel:`Order`. This action triggers a small temporary "
-"confirmation pop-up window, reading :guilabel:`The following replenishment "
-"order has been generated`, along with a new purchase order number."
+"To use the one-time, temporary reordering rule, click :guilabel:`Order "
+"Once`. This action triggers a confirmation pop-up window in the top-right "
+"corner, reading :guilabel:`The following replenishment order has been "
+"generated`, along with a new purchase order number."
 msgstr ""
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:93
-msgid ""
-"Once the purchase order has been generated after clicking :guilabel:`Once`, "
-"refresh the page. The temporary reordering rule for the product no longer "
-"appears in the :guilabel:`Replenishment` dashboard."
-msgstr ""
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:98
-msgid "Complete purchase order"
-msgstr "Concluir pedido de compra"
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:100
-msgid ""
-"To view the purchase order created from the *Replenishment* dashboard, "
-"navigate to the :menuselection:`Purchase app`, and select the generated |PO| "
-"from the *Requests for Quotation* dashboard."
-msgstr ""
-
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:104
-msgid ""
-"From here, click :guilabel:`Confirm Order`, then click :guilabel:`Receive`. "
-"Finally, click :guilabel:`Validate` to complete the |PO|."
-msgstr ""
+"Para usar a regra de reordenamento temporário e único, clique "
+"em :guilabel:`Pedir uma vez`. Essa ação aciona uma janela pop-up de "
+"confirmação no canto superior direito, onde se lê :guilabel:`O seguinte "
+"pedido de reposição foi gerado`, juntamente com um novo número de pedido de "
+"compra."
 
 #: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:107
 msgid ""
-"The temporary reordering rule is automatically deleted upon confirmation of "
-"the |PO|, and the *Reordering Rules* count returns to `0`. Now, the original "
-"sales order can be delivered and invoiced."
+"Once the purchase order has been generated after clicking :guilabel:`Order "
+"Once`, refresh the page. The temporary reordering rule for the product no "
+"longer appears in the :guilabel:`Replenishment` dashboard."
 msgstr ""
+"Depois que o pedido de compra tiver sido gerado após clicar "
+"em :guilabel:`Pedir uma vez`, atualize a página. A regra de reposição "
+"temporária do produto não aparecerá mais no painel :guilabel:`Reposição`."
 
 #: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:112
-msgid ""
-"Once the |SO| is delivered and invoiced, ensure there are no reordering "
-"rules on the product form."
-msgstr ""
+msgid "Complete purchase order"
+msgstr "Concluir pedido de compra"
 
-#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:115
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:114
+msgid ""
+"To view the purchase order created from the :guilabel:`Replenishment` "
+"dashboard, navigate to the :menuselection:`Purchase app`, and select the "
+"generated :abbr:`PO (purchase order)` from the :guilabel:`Requests for "
+"Quotation` overview."
+msgstr ""
+"Para visualizar o pedido de compra criado a partir do "
+"painel :guilabel:`Reposição`, navegue até a :menuselection:`app Compra` e "
+"selecione o :abbr:`PC` gerado na visão geral :guilabel:`Solicitações de "
+"cotação`."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:118
+msgid ""
+"From here, click :guilabel:`Confirm Order`, then click :guilabel:`Receive "
+"Products`. Finally, click :guilabel:`Validate` to complete the purchase "
+"order."
+msgstr ""
+"A partir daí, clique em :guilabel:`Confirmar pedido` e, em seguida, clique "
+"em :guilabel:`Receber produtos`. Por fim, clique em :guilabel:`Validar` para "
+"concluir o pedido de compra."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:None
+msgid "Purchase order for product ordered with temporary reordering rule."
+msgstr ""
+"Pedido de compra para produto solicitado com regra de reposição temporária."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:125
+msgid "Now, the original sales order can be delivered and invoiced."
+msgstr "Agora, o pedido de vendas original pode ser entregue e faturado."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:128
+msgid ""
+"Once the :abbr:`SO (sales order)` is delivered and invoiced, ensure there "
+"are no reordering rules on the product form."
+msgstr ""
+"Depois que o :abbr:`PV` for entregue e faturado, certifique-se de que não "
+"haja regras de reposição no formulário do produto."
+
+#: ../../content/applications/inventory_and_mrp/purchase/products/temporary_reordering.rst:131
 msgid ""
 "Go to :menuselection:`Inventory app --> Products --> Products`, select the "
-"product, and confirm that the :icon:`fa-refresh` :guilabel:`Reordering "
-"Rules` smart button displays `0`."
+"product, and confirm that the :guilabel:`Reordering Rules` smart button "
+"displays `0`."
 msgstr ""
+"Vá para o :menuselection:`app Inventário --> Produtos --> Produtos`, "
+"selecione o produto e confirme se o botão inteligente :guilabel:`Regras de "
+"reposição` exibe `0`."
 
 #: ../../content/applications/inventory_and_mrp/quality.rst:9
 msgid ""
@@ -64993,222 +65145,6 @@ msgstr ""
 #: ../../content/applications/inventory_and_mrp/repairs/repair_orders.rst:212
 msgid ":doc:`../../sales/sales/products_prices/returns`"
 msgstr ":doc:`../../sales/sales/products_prices/returns`"
-
-#~ msgid ""
-#~ "Then, once all the configurations are complete, be sure to "
-#~ "click :guilabel:`Save`."
-#~ msgstr ""
-#~ "Em seguida, quando todas as configurações estiverem concluídas, não se "
-#~ "esqueça de clicar em :guilabel:`Salvar`."
-
-#~ msgid ""
-#~ "Reordering rules keep the forecasted stock levels above a certain "
-#~ "threshold, without exceeding a specified upper limit, or maximum amount. "
-#~ "When a product with a reordering rule falls below a specified quantity, "
-#~ "Odoo generates an order using the specified *route* (e.g. *Buy* or "
-#~ "*Manufacture*) to replenish the stock."
-#~ msgstr ""
-#~ "As regras de reposição mantêm os níveis de estoque previstos acima de um "
-#~ "determinado limite, sem exceder o limite superior ou a quantidade máxima "
-#~ "indicada. Quando um produto com uma regra de reposição fica abaixo de uma "
-#~ "quantidade especificada, o Odoo gera um pedido usando a *rota* "
-#~ "especificada (ex.: *Comprar* ou *Fabricar*) para repor o estoque."
-
-#~ msgid ""
-#~ "In certain cases, businesses might opt for *temporary reordering rules* "
-#~ "when they do not want specific products to be replenished automatically."
-#~ msgstr ""
-#~ "Em certos casos, as empresas podem optar por *regras de reposição "
-#~ "temporária* quando não quiserem que produtos específicos sejam repostos "
-#~ "automaticamente."
-
-#~ msgid ""
-#~ "In Odoo, a \"temporary\" reordering rule is created in the replenishment "
-#~ "dashboard when a product:"
-#~ msgstr ""
-#~ "No Odoo, uma regra de reposição \"temporária\" é criada no painel de "
-#~ "reposição quando um produto:"
-
-#~ msgid "is configured with a *Buy* route"
-#~ msgstr "está configurado com uma rota *Comprar*"
-
-#~ msgid "has no reordering rule configured"
-#~ msgstr "não tem nenhuma regra de reposição configurada"
-
-#~ msgid "has `0` quantity in stock"
-#~ msgstr "tem `0` quantidade em estoque"
-
-#~ msgid "is included in a sales order (SO)."
-#~ msgstr "está incluído em um pedido de vendas (SO)."
-
-#~ msgid ""
-#~ "This rule is deleted upon confirmation of the purchase order (PO) "
-#~ "generated for the product."
-#~ msgstr ""
-#~ "Essa regra é excluída após a confirmação do pedido de compra (PO) gerado "
-#~ "para o produto."
-
-#~ msgid ""
-#~ "On the product form, enter the product name, and ensure "
-#~ "the :guilabel:`Can be Sold` and :guilabel:`Can be Purchased` options are "
-#~ "enabled, located beneath the :guilabel:`Product Name` field."
-#~ msgstr ""
-#~ "No formulário do produto, digite o nome do produto e verifique se as "
-#~ "opções :guilabel:`Pode ser vendido` e :guilabel:`Pode ser comprado` estão "
-#~ "ativadas, localizadas abaixo do campo :guilabel:`Nome do produto`."
-
-#~ msgid ""
-#~ "Then, set the :guilabel:`Product Type` to `Storable Product`, under "
-#~ "the :guilabel:`General Information` tab."
-#~ msgstr ""
-#~ "Em seguida, defina o :guilabel:`Tipo de produto` como `Produto "
-#~ "armazenável`, na aba :guilabel:`Informações gerais`."
-
-#~ msgid ""
-#~ "Next, click the :guilabel:`Purchase` tab, and under :guilabel:`Vendor`, "
-#~ "click :guilabel:`Add a line` to select a vendor from the drop-down menu. "
-#~ "Then, set a purchase price under :guilabel:`Price`."
-#~ msgstr ""
-#~ "Em seguida, clique na aba :guilabel:`Compra` e, "
-#~ "em :guilabel:`Fornecedor`, clique em :guilabel:`Adicionar uma linha` para "
-#~ "selecionar um fornecedor no menu suspenso. Em seguida, defina um preço de "
-#~ "compra em :guilabel:`Preço`."
-
-#~ msgid ""
-#~ "A vendor **must** be set for temporary reordering rules to work. While "
-#~ "a :abbr:`PO (purchase order)` can still be created automatically, "
-#~ "attempting to replenish the product from the :guilabel:`Replenishment` "
-#~ "dashboard in the *Inventory* app triggers a warning to add a vendor on "
-#~ "the product form."
-#~ msgstr ""
-#~ "Um fornecedor **deve** ser definido para que as regras de reposição "
-#~ "temporária funcionem. Embora um :abbr:`PC (pedido de compra)` ainda possa "
-#~ "ser criado automaticamente, a tentativa de repor o produto no "
-#~ "painel :guilabel:`Reposição` no aplicativo *Inventário* aciona um aviso "
-#~ "para adicionar um fornecedor no formulário do produto."
-
-#~ msgid ""
-#~ "Warning pop-up upon clicking to replenish product with no set vendor."
-#~ msgstr ""
-#~ "Pop-up de aviso ao clicar para repor o produto sem um fornecedor definido."
-
-#~ msgid ""
-#~ "Before creating a :abbr:`SO (sales order)` for the product, ensure "
-#~ "the :guilabel:`On Hand` smart button on the product form reads `0.00 "
-#~ "Units`. Then, ensure that the :guilabel:`Reordering Rules` smart button "
-#~ "reads `0`, indicating there are no rules applied to this product."
-#~ msgstr ""
-#~ "Antes de criar um :abbr:`PV (pedido de venda)` para o produto, certifique-"
-#~ "se de que o botão inteligente :guilabel:`Em mãos` no formulário do "
-#~ "produto indique `0.00 unidades`. Em seguida, certifique-se de que o botão "
-#~ "inteligente :guilabel:`Regras de reposição` exiba `0`, indicando que não "
-#~ "há regras aplicadas a esse produto."
-
-#~ msgid ""
-#~ "Product form smart button row displaying reordering rules and on hand "
-#~ "buttons."
-#~ msgstr ""
-#~ "Linha de botões inteligentes do formulário do produto exibindo os botões "
-#~ "\"Regras de reposição\" e \"Em mãos\"."
-
-#~ msgid ""
-#~ "Then, add a customer in the :guilabel:`Customer` field, and "
-#~ "click :guilabel:`Add a product` under the :guilabel:`Product` column in "
-#~ "the :guilabel:`Order Lines` tab. Next, select the desired product from "
-#~ "the drop-down menu. Lastly, :guilabel:`Confirm` the :abbr:`SO (sales "
-#~ "order)`."
-#~ msgstr ""
-#~ "Em seguida, adicione um cliente no campo :guilabel:`Cliente` e clique "
-#~ "em :guilabel:`Adicionar um produto` na coluna :guilabel:`Produto` na "
-#~ "aba :guilabel:`Linhas do pedido`. Em seguida, selecione o produto "
-#~ "desejado no menu suspenso. Por fim, :guilabel:`confirme` o :abbr:`PV`."
-
-#~ msgid "Sales order for product with no set reordering rules."
-#~ msgstr "Pedido de vendas de produto sem regras de reposição definidas."
-
-#~ msgid ""
-#~ "To see the temporary reordering rule created for the out-of-stock product "
-#~ "included in the sales order, navigate to :menuselection:`Inventory app --"
-#~ "> Operations --> Replenishment`. Doing so opens "
-#~ "the :guilabel:`Replenishment` dashboard."
-#~ msgstr ""
-#~ "Para ver a regra de reposição temporária criada para o produto fora de "
-#~ "estoque incluído no pedido de venda, navegue até :menuselection:`app "
-#~ "Inventário --> Operações --> Reposição`. Isso abre o "
-#~ "painel :guilabel:`Reposição`."
-
-#~ msgid ""
-#~ "Additionally, two replenishment options are located to the far-right of "
-#~ "the row: :guilabel:`Order Once` and :guilabel:`Automate`."
-#~ msgstr ""
-#~ "Além disso, duas opções de reposição estão localizadas na extremidade "
-#~ "direita da linha: :guilabel:`Pedir uma vez` e :guilabel:`Automatizar`."
-
-#~ msgid ""
-#~ "To use the one-time, temporary reordering rule, click :guilabel:`Order "
-#~ "Once`. This action triggers a confirmation pop-up window in the top-right "
-#~ "corner, reading :guilabel:`The following replenishment order has been "
-#~ "generated`, along with a new purchase order number."
-#~ msgstr ""
-#~ "Para usar a regra de reordenamento temporário e único, clique "
-#~ "em :guilabel:`Pedir uma vez`. Essa ação aciona uma janela pop-up de "
-#~ "confirmação no canto superior direito, onde se lê :guilabel:`O seguinte "
-#~ "pedido de reposição foi gerado`, juntamente com um novo número de pedido "
-#~ "de compra."
-
-#~ msgid ""
-#~ "Once the purchase order has been generated after "
-#~ "clicking :guilabel:`Order Once`, refresh the page. The temporary "
-#~ "reordering rule for the product no longer appears in "
-#~ "the :guilabel:`Replenishment` dashboard."
-#~ msgstr ""
-#~ "Depois que o pedido de compra tiver sido gerado após clicar "
-#~ "em :guilabel:`Pedir uma vez`, atualize a página. A regra de reposição "
-#~ "temporária do produto não aparecerá mais no painel :guilabel:`Reposição`."
-
-#~ msgid ""
-#~ "To view the purchase order created from the :guilabel:`Replenishment` "
-#~ "dashboard, navigate to the :menuselection:`Purchase app`, and select the "
-#~ "generated :abbr:`PO (purchase order)` from the :guilabel:`Requests for "
-#~ "Quotation` overview."
-#~ msgstr ""
-#~ "Para visualizar o pedido de compra criado a partir do "
-#~ "painel :guilabel:`Reposição`, navegue até a :menuselection:`app Compra` e "
-#~ "selecione o :abbr:`PC` gerado na visão geral :guilabel:`Solicitações de "
-#~ "cotação`."
-
-#~ msgid ""
-#~ "From here, click :guilabel:`Confirm Order`, then click :guilabel:`Receive "
-#~ "Products`. Finally, click :guilabel:`Validate` to complete the purchase "
-#~ "order."
-#~ msgstr ""
-#~ "A partir daí, clique em :guilabel:`Confirmar pedido` e, em seguida, "
-#~ "clique em :guilabel:`Receber produtos`. Por fim, clique "
-#~ "em :guilabel:`Validar` para concluir o pedido de compra."
-
-#~ msgid "Purchase order for product ordered with temporary reordering rule."
-#~ msgstr ""
-#~ "Pedido de compra para produto solicitado com regra de reposição "
-#~ "temporária."
-
-#~ msgid "Now, the original sales order can be delivered and invoiced."
-#~ msgstr "Agora, o pedido de vendas original pode ser entregue e faturado."
-
-#~ msgid ""
-#~ "Once the :abbr:`SO (sales order)` is delivered and invoiced, ensure there "
-#~ "are no reordering rules on the product form."
-#~ msgstr ""
-#~ "Depois que o :abbr:`PV` for entregue e faturado, certifique-se de que não "
-#~ "haja regras de reposição no formulário do produto."
-
-#~ msgid ""
-#~ "Go to :menuselection:`Inventory app --> Products --> Products`, select "
-#~ "the product, and confirm that the :guilabel:`Reordering Rules` smart "
-#~ "button displays `0`."
-#~ msgstr ""
-#~ "Vá para o :menuselection:`app Inventário --> Produtos --> Produtos`, "
-#~ "selecione o produto e confirme se o botão inteligente :guilabel:`Regras "
-#~ "de reposição` exibe `0`."
 
 #~ msgid ""
 #~ "Recently, Bike Haus has decided to have their purchasing manager, David, "

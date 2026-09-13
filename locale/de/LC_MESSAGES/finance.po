@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-04 17:33+0000\n"
 "PO-Revision-Date: 2026-09-03 14:11+0000\n"
 "Last-Translator: \"Larissa Manderfeld (lman)\" <lman@odoo.com>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -1126,7 +1126,7 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/accounting/payments/batch.rst:28
 #: ../../content/applications/finance/accounting/payments/batch.rst:138
 #: ../../content/applications/finance/accounting/payments/follow_up.rst:17
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:11
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:10
 #: ../../content/applications/finance/accounting/payments/sepa_payments.rst:44
 #: ../../content/applications/finance/accounting/payments/sepa_payments.rst:187
 #: ../../content/applications/finance/accounting/reporting/silverfin.rst:11
@@ -1194,8 +1194,8 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/fiscal_localizations/turkiye.rst:240
 #: ../../content/applications/finance/fiscal_localizations/united_kingdom.rst:8
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:35
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:461
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:576
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:478
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:593
 #: ../../content/applications/finance/fiscal_localizations/uruguay.rst:46
 #: ../../content/applications/finance/fiscal_localizations/vietnam.rst:61
 #: ../../content/applications/finance/fiscal_localizations/vietnam.rst:240
@@ -13265,7 +13265,7 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/colombia.rst:76
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:47
 #: ../../content/applications/finance/fiscal_localizations/philippines.rst:190
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:760
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:777
 msgid "Company information"
 msgstr "Unternehmensinformationen"
 
@@ -17839,30 +17839,17 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:114
 msgid ""
-"Continental :guilabel:`Periodic (at closing)`: Expense account, which is a "
-"localization-specific account used to record inventory variations during the "
-"stock closing process."
+"Continental :guilabel:`Periodic (at closing)`: Expense account (specific for "
+"variation recording)."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:116
-msgid "Anglo-Saxon :guilabel:`Perpetual (at invoicing)`:"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:118
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:115
 msgid ""
-"Current asset account type: Provides interim tracking of inventory value "
-"changes throughout the fiscal period. Inventory movements become immediately "
-"visible on the Balance Sheet once the closing entry is generated."
+"Anglo-Saxon :guilabel:`Perpetual (at invoicing)`: Current asset account "
+"(recommended for interim tracking) or expense account (optional)."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:121
-msgid ""
-"Expense account type: Offers simpler configuration with fewer interim "
-"accounting entries. Recommended if interim tracking is not required and a "
-"simpler period-end closing process is preferred."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:126
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:119
 msgid ""
 "Stock variations resulting from product receipts and deliveries are "
 "displayed in the :guilabel:`Stock Variation` section of the :ref:`Inventory "
@@ -17870,7 +17857,7 @@ msgid ""
 "report>`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:129
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:122
 msgid ""
 "When using the :guilabel:`Perpetual (at invoicing)` inventory valuation, if "
 "no bill or invoice has been posted for these moves yet, it allows their "
@@ -17880,15 +17867,15 @@ msgid ""
 "are recorded."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:138
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:131
 msgid "Other accounts"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:143
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:136
 msgid "Inventory Loss"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:145
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:138
 msgid ""
 "To exclude :doc:`inventory adjustments <../../../inventory_and_mrp/inventory/"
 "warehouses_storage/inventory_management/count_products>` from "
@@ -17897,8 +17884,8 @@ msgid ""
 "Loss` location type) appropriately:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:150
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:177
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:143
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:170
 msgid ""
 "In the :ref:`Inventory Valuation section of the Accounting settings "
 "<accounting/inventory-valuation/configuration>`, click :guilabel:`locations` "
@@ -17906,19 +17893,19 @@ msgid ""
 "\"Production\" on dedicated locations`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:154
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:147
 msgid ""
 "In the :guilabel:`Locations` list view, open any locations with "
 "the :guilabel:`Inventory Loss` location type."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:156
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:149
 msgid ""
 "Set the :guilabel:`Loss Account` in the :guilabel:`Accounting` information "
 "section."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:159
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:152
 msgid ""
 "When using the Continental accounting standard in combination with "
 "the :guilabel:`Periodic (at closing)` valuation method, the update is "
@@ -17927,7 +17914,7 @@ msgid ""
 "report>`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:163
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:156
 msgid ""
 "When using the Anglo-Saxon accounting standard in combination with "
 "the :guilabel:`Perpetual (at invoicing)` valuation method, "
@@ -17935,11 +17922,11 @@ msgid ""
 "account>` updates immediately in real time once the move is completed."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:171
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:164
 msgid "Cost of Production"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:173
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:166
 msgid ""
 "To record production costs for both the finished product and the components "
 "in an account other than the default :guilabel:`Variation Account`, set up "
@@ -17947,19 +17934,19 @@ msgid ""
 "type):"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:180
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:173
 msgid ""
 "In the :guilabel:`Locations` list view, open any locations with "
 "the :guilabel:`Production` location types."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:182
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:175
 msgid ""
 "Set the :guilabel:`Cost of Production` in the :guilabel:`Accounting` "
 "information section."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:185
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:178
 msgid ""
 "When using the Anglo-Saxon accounting standard in combination with "
 "the :guilabel:`Perpetual (at invoicing)` inventory valuation, "
@@ -17968,7 +17955,7 @@ msgid ""
 "Production` account serves as the counterpart account for both."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:189
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:182
 msgid ""
 "When using the Continental accounting standard in combination with "
 "the :guilabel:`Periodic (at closing)` inventory valuation, inventory "
@@ -17979,32 +17966,32 @@ msgid ""
 "standard with the :guilabel:`Periodic (at closing)` inventory valuation."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:199
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:192
 msgid "Inventory valuation report"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:201
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:194
 msgid ""
 "The :guilabel:`Inventory Valuation` report provides an accurate valuation of "
 "inventory. To access it, go to :menuselection:`Accounting --> Review --> "
 "Inventory Valuation`. The report includes the following sections:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:205
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:198
 msgid ""
 ":guilabel:`Initial Balance`: Current accounting inventory value. "
 "Click :guilabel:`Initial Balance` to display the stock valuation journal "
 "entries."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:207
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:200
 msgid ""
 ":guilabel:`Inventory Loss` (:guilabel:`Periodic (at closing)` only): Only if "
 "the :ref:`Loss Account <accounting/inventory-valuation/inventory-loss>` was "
 "filled in during configuration."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:209
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:202
 msgid ""
 ":guilabel:`Cost of Production` (:guilabel:`Periodic (at closing)` only, even "
 "if using this account is not common for this valuation method): Only if "
@@ -18012,14 +17999,14 @@ msgid ""
 "production>` account was entered during configuration."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:212
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:205
 msgid ""
 ":guilabel:`Stock Variation` displays the difference between the posted "
 "inventory value and the stock valuation recorded in the Inventory app (i.e., "
 "the remaining quantity in stock moves)."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:214
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:207
 msgid ""
 ":guilabel:`Ending Stock`: Future accounting inventory value when "
 "the :ref:`closing entry <accounting/inventory-valuation/closing-entry>` is "
@@ -18028,7 +18015,7 @@ msgid ""
 "stock>` report."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:220
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:213
 msgid ""
 "Stock variation is automatically recorded with a stock closing entry at the "
 "end of the period set during :ref:`configuration <accounting/inventory-"
@@ -18036,62 +18023,62 @@ msgid ""
 "<accounting/inventory-valuation/closing-entry>`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:227
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:220
 msgid "Stock closing entry"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:229
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:222
 msgid ""
 "To create an inventory valuation entry that synchronizes accounting records "
 "with stock value, follow these steps:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:232
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:225
 msgid ""
 "Open the :ref:`Inventory Valuation <accounting/inventory-valuation/inventory-"
 "valuation-report>` report."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:234
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:227
 msgid ""
 "By default, the closing date is set to the end of the fiscal period. If "
 "needed, click :icon:`fa-calendar` :guilabel:`As of` to select a different "
 "inventory valuation date."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:236
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:229
 msgid "Click :guilabel:`Generate Entry`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:237
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:230
 msgid ""
 "Review the draft :guilabel:`Stock Closing` entry if needed, and "
 "click :guilabel:`Post`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:240
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:233
 msgid ""
 "The :guilabel:`Stock Valuation` and :guilabel:`Stock Variation` accounts are "
 "then updated in the :ref:`general ledger <accounting/reporting/general-"
 "ledger>`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:246
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:239
 msgid "Accrual entries"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:248
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:241
 msgid ""
 "Revenue and expenses are recognized when goods or services are delivered or "
 "received, not when invoiced. Accrual entries are required when the delivery "
 "timing differs from invoicing, especially when a closing is needed."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:252
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:245
 msgid "To check for pending transactions requiring accrual entries:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:254
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:247
 msgid ""
 "Go to :menuselection:`Accounting --> Review` and select the relevant "
 "report: :guilabel:`Bill To Receive`, :guilabel:`Invoices To Be "
@@ -18099,23 +18086,23 @@ msgid ""
 "Delivered`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:257
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:250
 msgid ""
 "Click :icon:`fa-calendar` :guilabel:`As of` to change the date, if needed."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:258
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:251
 msgid "Select the relevant lines and click :guilabel:`Create Accrual Entries`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:259
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:252
 msgid ""
 "In the :guilabel:`Accrued Revenue/Expense Entry` popup, set "
 "the :guilabel:`Accrual Account` and review the :guilabel:`Reversal Date`, if "
 "needed. Then, click :guilabel:`Create Entry`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:263
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:256
 msgid ""
 "Both valuation methods (periodic and perpetual) use accrual entries to "
 "update revenues and expenses. However, when using the Anglo-Saxon accounting "
@@ -18125,11 +18112,11 @@ msgid ""
 "accounts, such as Bill to Receive or |GRNI|."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:272
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:265
 msgid "Upgrade process for Anglo-Saxon Perpetual"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:274
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:267
 msgid ""
 "In Odoo 19, the stock input/output accounts are no longer used. Any non-zero "
 "balances in stock interim accounts must be transferred to the :ref:`stock "
@@ -18140,32 +18127,32 @@ msgid ""
 "valuation/upgrade-process-manual>` upgrading to Odoo 19."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:281
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:274
 msgid ""
 "Before upgrading, review received purchase or sales orders that are not yet "
 "linked to vendor bills or invoices, and post any existing draft bills/"
 "invoices to reduce the open balance."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:285
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:278
 msgid ""
 "It is recommended to implement the change **after** upgrading to Odoo 19, "
 "because a server action identifies the open balance in the :guilabel:`Stock "
 "Interim` accounts and automatically applies the change."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:290
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:283
 msgid ""
 "Account structures and valuation scenarios differ across companies. Review "
 "these steps with an accountant or an Odoo inventory valuation expert to "
 "ensure the setup aligns with the company's specific setup."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:297
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:290
 msgid "Option 1: Server action journal entry"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:300
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:293
 msgid ""
 "Use a test database created during the upgrade process first, and verify "
 "the :doc:`Stock report <../../../inventory_and_mrp/inventory/"
@@ -18174,40 +18161,40 @@ msgid ""
 "report>` to ensure accuracy."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:305
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:298
 msgid ""
 "After upgrading to Odoo 19, the server action must be applied to each "
 "company to balance any non-zero :guilabel:`Stock Interim` accounts:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:308
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:301
 msgid ""
 "Go to :menuselection:`Settings --> Users & Companies --> Companies` and "
 "click the relevant company."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:310
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:303
 msgid ""
 "Click the :icon:`fa-cog` :guilabel:`(gear)` icon and select :guilabel:`Stock "
 "Valuation rebalance interim Accounts`. A draft journal entry is "
 "automatically generated to balance the open amount."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:312
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:305
 msgid ""
 "Review the draft journal entry amounts, edit them if necessary, then "
 "click :guilabel:`Post`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:313
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:346
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:306
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:339
 msgid ""
 "Check the General Ledger to confirm that the :guilabel:`Stock Interim` "
 "accounts are balanced to zero and that the remaining amount is recorded in "
 "the :guilabel:`Stock valuation` account."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:315
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:308
 msgid ""
 "Go to :menuselection:`Accounting --> Review --> Inventory Valuation` "
 "and :ref:`generate an inventory variation entry <accounting/inventory-"
@@ -18217,14 +18204,14 @@ msgid ""
 "variation-account>`, which is a new type of interim account."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:320
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:313
 msgid ""
 "Optionally, generate :ref:`accrual entries <accounting/inventory-valuation/"
 "accrual-entries>` if an accounting closing is required and the Bill to "
 "Receive or |GRNI| account, etc., needs updating."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:325
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:318
 msgid ""
 "Journal entries can also be created manually if needed, using the same "
 "process for balancing :guilabel:`Stock Interim` accounts :ref:`before "
@@ -18232,39 +18219,39 @@ msgid ""
 "manual>`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:332
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:325
 msgid "Option 2: Manual journal entry"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:334
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:327
 msgid "To create the manual journal entry, follow these steps:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:336
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:329
 msgid ""
 "If all vendor bills or invoices can't be created for all the received "
 "purchase/sales orders before the upgrade, follow these steps:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:339
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:332
 msgid "Go to :menuselection:`Accounting --> Reporting --> General Ledger`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:340
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:333
 msgid ""
 "Identify the open balance in the :guilabel:`Stock Interim` accounts and "
 "create a journal entry that debits/credits:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:343
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:336
 msgid "The :guilabel:`Stock Interim` account(s) containing the open balance"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:344
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:337
 msgid "The :guilabel:`Stock Valuation` account"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:349
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:342
 msgid ""
 "After upgrading to Odoo 19, go to :menuselection:`Accounting --> Review --> "
 "Inventory Valuation` and :ref:`generate an inventory variation entry "
@@ -18275,7 +18262,7 @@ msgid ""
 "account."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:355
+#: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:348
 msgid ""
 "Optionally, generate :ref:`accrual entries <accounting/inventory-valuation/"
 "accrual-entries>` if an accounting closing is needed and the Bill to Receive "
@@ -19313,7 +19300,7 @@ msgstr ""
 "IdNr.` des **einzelnen** Unternehmen dieser Steuereinheit."
 
 #: ../../content/applications/finance/accounting/get_started/tax_units.rst:30
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:345
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:343
 msgid "Fiscal position"
 msgstr "Steuerposition"
 
@@ -19607,8 +19594,8 @@ msgstr ""
 "Einzahlungen mit mehreren Schecks vereinfachen."
 
 #: ../../content/applications/finance/accounting/payments.rst:96
-msgid "Registering payments from an invoice or bill"
-msgstr ""
+msgid "Registering payment from an invoice or bill"
+msgstr "Zahlung aus einer Ein- oder Ausgangsrechnung registrieren"
 
 #: ../../content/applications/finance/accounting/payments.rst:98
 msgid "To register a payment for an invoice or a bill, follow these steps:"
@@ -21289,137 +21276,117 @@ msgstr "Per Scheck bezahlen"
 
 #: ../../content/applications/finance/accounting/payments/pay_checks.rst:5
 msgid ""
-"When paying a vendor bill, checks can be selected as a payment method and "
-"can be printed. Then the check and bank statement can be reconciled."
+"Once you decide to pay a supplier bill, you can select to pay by check. You "
+"can then print all the payments registered by check. Finally, the bank "
+"reconciliation process will match the checks you sent to suppliers with "
+"actual bank statements."
 msgstr ""
+"Wenn Sie sich entschlossen haben, eine Lieferantenrechnung zu bezahlen, "
+"können Sie die Zahlung per Scheck auswählen. Sie können dann alle per Scheck "
+"registrierten Zahlungen ausdrucken. Schließlich gleicht die Bankabstimmung "
+"die Schecks, die Sie an die Lieferanten geschickt haben, mit den aktuellen "
+"Kontoauszügen ab."
 
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:13
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:15
+msgid "Activate checks payment methods"
+msgstr "Scheck-Zahlungsmethode aktivieren"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:17
 msgid ""
 "To activate the checks payment method, go to :menuselection:`Accounting --> "
-"Configuration --> Settings`, scroll down to the :guilabel:`Vendor Payments` "
-"section, enable :guilabel:`Checks`, then click :guilabel:`Save`. Next, "
-"select a :guilabel:`Check Layout`, then :guilabel:`Save`."
+"Configuration --> Settings`, and scroll down to the :guilabel:`Vendor "
+"Payments` section. There, you can activate the payment method as well as set "
+"up the :guilabel:`Check Layout`."
 msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:18
-msgid ""
-"Some countries use specific check layouts, which sometimes require "
-"installing a dedicated module."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:20
-msgid "Several configuration options are available:"
-msgstr ""
+"Um die Zahlungsmethode „Schecks“ zu aktivieren, gehen Sie "
+"zu :menuselection:`Buchhaltung --> Konfiguration --> Einstellungen`, und "
+"scrollen Sie nach unten zum Abschnitt :guilabel:`Lieferantenzahlungen`. Dort "
+"können Sie die Zahlungsmethode aktivieren und das :guilabel:`Scheck-Layout` "
+"einrichten."
 
 #: ../../content/applications/finance/accounting/payments/pay_checks.rst:22
 msgid ""
-":guilabel:`Multi-Pages Check Stub`: enable the check stub to span multiple "
-"pages when the number of invoices or payments associated with a single check "
-"exceeds the available space on a single page."
+"Once the :guilabel:`Checks` setting is activated, the **Checks** payment "
+"method is automatically set up in the :guilabel:`Outgoing Payments` tabs of "
+"**bank** journals."
 msgstr ""
+"Sobald die Einstellung :guilabel:`Schecks` aktiviert ist, wird die "
+"Zahlungsmethode **Schecks** automatisch in den Reitern :guilabel:`Ausgehende "
+"Zahlungen` der **Bankjournale** eingerichtet."
 
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:25
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:24
 msgid ""
-":guilabel:`Check Top Margin`: define the top margin used when printing "
-"checks."
+"Some countries require specific modules to print checks; such modules may be "
+"installed by default. For instance, the :ref:`US Checks Layout module "
+"<l10n_us/optional-modules>` is required to :ref:`print US checks <l10n_us/"
+"writing-checks>`."
 msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:26
-msgid ""
-":guilabel:`Check Left Margin`: define the left margin used when printing "
-"checks."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:29
-msgid ""
-"Once activated, the :guilabel:`Checks` payment method is automatically set "
-"up in the :guilabel:`Outgoing Payments` tab of bank journals."
-msgstr ""
+"Einige Länder benötigen spezifische Module zum Drucken von Schecks; solche "
+"Module können standardmäßig installiert sein. Beispielsweise wird "
+"das :ref:`US Checks Layout-Modul <l10n_us/optional-modules>` benötigt, "
+"um :ref:`US-Schecks zu drucken <l10n_us/writing-checks>`."
 
 #: ../../content/applications/finance/accounting/payments/pay_checks.rst:31
-msgid ""
-"Some localizations have blank paper formats. They can be used to print the "
-"information on the check as needed. This requires the use of "
-"both :abbr:`MICR (Magnetic Ink Character Recognition)` ink or toner that "
-"complies with check-printing standards and check-quality paper. Other "
-"information, such as the company name, bank account, and check number, is "
-"printed when creating the blank check."
+msgid "Pay a supplier bill with a check"
+msgstr "Eine Lieferantenrechnungen mit einem Scheck bezahlen"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:33
+msgid "Paying a supplier with a check is done in three steps:"
 msgstr ""
+"Das Bezahlen eines Lieferanten mit einem Scheck erfolgt in drei Schritten:"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:35
+msgid "registering a payment"
+msgstr "eine Zahlung registrieren"
 
 #: ../../content/applications/finance/accounting/payments/pay_checks.rst:36
-msgid ""
-"Pre-printed check formats (non-blank checks) require pre-printed paper from "
-"a third-party vendor."
-msgstr ""
+msgid "printing checks in batch for all registered payments"
+msgstr "Schecks für alle registrierten Zahlungen in Stapeln drucken"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:37
+msgid "reconciling bank statements"
+msgstr "Kontoauszüge abstimmen"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:40
+msgid "Register a payment by check"
+msgstr "Eine Scheck-Zahlung registrieren"
 
 #: ../../content/applications/finance/accounting/payments/pay_checks.rst:42
-msgid "Pay a vendor bill"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:44
-msgid "To pay a vendor bill with a check, follow these steps:"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:46
 msgid ""
-"Register the payment by going to :menuselection:`Accounting --> Vendors --> "
-"Bills` and opening the relevant vendor bill. Once it is confirmed, "
-"click :guilabel:`Pay`, set the :guilabel:`Payment Method` "
-"to :guilabel:`Checks`, and click :guilabel:`Create Payment`."
+"To register a payment, open any supplier bill from the "
+"menu :menuselection:`Purchases --> Vendor Bills`. Once the supplier bill is "
+"validated, you can register a payment. Set the :guilabel:`Payment Method` "
+"to :guilabel:`Checks` and validate the payment."
 msgstr ""
+"Um eine Zahlung zu registrieren, öffnen Sie eine beliebige "
+"Lieferantenrechnung aus dem Menü :menuselection:`Einkäufe --> "
+"Lieferantenrechnungen`. Sobald die Lieferantenrechnung validiert ist, können "
+"Sie eine Zahlung registrieren. Setzen Sie die :guilabel:`Zahlungsmethode` "
+"auf :guilabel:`Schecks` und bestätigen Sie die Zahlung."
 
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:49
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:48
+msgid "Print checks"
+msgstr "Schecks drucken"
+
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:50
 msgid ""
-"Click the :guilabel:`Payments` smart button to access the check payment, and "
-"click :guilabel:`Print Check`. In the pop-up, specify the pre-printed check "
-"number to ensure the corresponding check number is recorded on the payment."
+"On your :guilabel:`Accounting Dashboard` in the :guilabel:`Bank` Journal, "
+"you can see the number of checks registered. By clicking "
+"on :guilabel:`Checks to print` you have got the possibility to print the "
+"reconciled checks."
 msgstr ""
+"Auf Ihrem :guilabel:`Buchhaltungsdashboard` im :guilabel:`Bank`-Journal "
+"sehen Sie die Anzahl der registrierten Schecks. Wenn Sie "
+"auf :guilabel:`Auszudruckende Schecks` klicken, haben Sie die Möglichkeit, "
+"die abgestimmten Schecks zu drucken."
 
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:52
+#: ../../content/applications/finance/accounting/payments/pay_checks.rst:54
 msgid ""
-"Create a transaction in the bank journal, and :ref:`reconcile <accounting/"
-"reconciliation/reconcile>` it with the related vendor bill or related check "
-"to mark the vendor bill as :guilabel:`Paid`."
+"To print all checks in batch, select all payments from the list view and "
+"click on :guilabel:`Print`."
 msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:57
-msgid "Once printed, several options are available:"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:59
-msgid ":guilabel:`Void Check`: click to cancel the check payment."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:60
-msgid ":guilabel:`Validate`: click to mark the payment as :guilabel:`Paid`."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:61
-msgid ""
-":guilabel:`Reject`: click if the check was rejected. The payment status is "
-"then set to :guilabel:`Rejected`, and the related bill is no longer marked "
-"as :guilabel:`Paid`."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:65
-msgid ""
-"Alternatively, from the :guilabel:`Accounting Dashboard`, "
-"click :guilabel:`Checks to print` under the :guilabel:`Bank` journal card. "
-"Then, open the relevant check and click :guilabel:`Print Check`."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:68
-msgid ""
-"To print multiple checks in batch, select the check payments from the list "
-"view, click the :icon:`fa-cog` :guilabel:`(Actions)` icon and "
-"click :guilabel:`Print`."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/payments/pay_checks.rst:72
-msgid ""
-":ref:`Registering payments from an invoice or bill <accounting/payments/from-"
-"invoice-bill>`"
-msgstr ""
+"Um alle Schecks im Stapel zu drucken, wählen Sie alle Zahlungen in der "
+"Listenansicht aus und klicken Sie auf :guilabel:`Drucken`."
 
 #: ../../content/applications/finance/accounting/payments/sepa_payments.rst:3
 msgid "SEPA payments"
@@ -21980,7 +21947,7 @@ msgstr ""
 "abgeglichen."
 
 #: ../../content/applications/finance/accounting/payments/sepa_payments.rst:224
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:717
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:734
 msgid "ISO 20022"
 msgstr "ISO 20022"
 
@@ -28630,7 +28597,7 @@ msgid "The Distribution for Refunds of a 21% VAT tax."
 msgstr "Die Verteilung für Rückerstattungen einer USt. von 21 %."
 
 #: ../../content/applications/finance/accounting/taxes.rst:297
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:390
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:388
 #: ../../content/applications/finance/accounting/taxes/fiscal_positions.rst:35
 #: ../../content/applications/finance/fiscal_localizations/australia.rst:57
 #: ../../content/applications/finance/fiscal_localizations/new_zealand.rst:65
@@ -29420,7 +29387,7 @@ msgstr ""
 "werden."
 
 #: ../../content/applications/finance/accounting/taxes/avatax.rst:109
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:606
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:623
 #: ../../content/applications/finance/payment_providers/adyen.rst:54
 #: ../../content/applications/finance/payment_providers/iyzico.rst:25
 #: ../../content/applications/finance/payment_providers/mercado_pago.rst:37
@@ -30004,11 +29971,11 @@ msgstr ""
 "ist, werden die Transaktionen in der Odoo-Datenbank für die "
 "Berichterstattung in *AvaTax* festgeschrieben."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:292
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:290
 msgid "Address validation"
 msgstr "Adressvalidierung"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:294
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:292
 msgid ""
 "The *Address Validation* feature ensures that the most up-to-date address by "
 "postal standards is set on a contact in Odoo. This is important to provide "
@@ -30018,7 +29985,7 @@ msgstr ""
 "Odoo die aktuellste Adresse nach postalischen Standards eingestellt ist. "
 "Dies ist wichtig, um genaue Steuerberechnungen für Kunden zu ermöglichen."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:298
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:296
 msgid ""
 "The :guilabel:`Address Validation` feature only works with partners/"
 "customers in North America."
@@ -30026,7 +29993,7 @@ msgstr ""
 "Die Funktion :guilabel:`Adressvalidierung` funktioniert nur mit Partnern/"
 "Kunden in Nordamerika."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:300
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:298
 msgid ""
 "Additionally, tick the checkbox next to the :guilabel:`Address validation` "
 "field."
@@ -30034,7 +30001,7 @@ msgstr ""
 "Aktivieren Sie außerdem das Kontrollkästchen neben dem "
 "Feld :guilabel:`Adressvalidierung`."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:303
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:301
 msgid ""
 "For accurate tax calculations, it is best practice to enter a complete "
 "address for the contacts saved in the database. However, *AvaTax* can still "
@@ -30048,13 +30015,13 @@ msgstr ""
 "Felder :guilabel:`Land`, :guilabel:`Bundesland` und :guilabel:`Postleitzahl` "
 "zu verwenden. Dies sind die drei minimal erforderlichen Felder."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:308
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:306
 msgid ":guilabel:`Save` the settings to implement the configuration."
 msgstr ""
 ":guilabel:`Speichern` Sie die Einstellungen, um die Konfiguration zu "
 "implementieren."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:311
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:309
 msgid ""
 "Manually :guilabel:`Validate` the address by navigating to "
 "the :menuselection:`Contacts app`, and selecting a contact. Now that the "
@@ -30066,7 +30033,7 @@ msgstr ""
 "das *AvaTax*-Modul nun in der Datenbank konfiguriert ist, erscheint eine "
 "Schaltfläche :guilabel:`Validieren` direkt unter der :guilabel:`Adresse`."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:315
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:313
 msgid ""
 "Click :guilabel:`Validate`, and a pop-up window appears with "
 "a :guilabel:`Validated Address` and :guilabel:`Original Address` listed. If "
@@ -30089,7 +30056,7 @@ msgstr ""
 "Schaltfläche\n"
 "„Validiert speichern“."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:325
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:323
 msgid ""
 "All previously-entered addresses for contacts in the Odoo database will need "
 "to be validated using the manually validate process outlined above. "
@@ -30101,11 +30068,11 @@ msgstr ""
 "werden. Adressen werden nicht automatisch validiert, wenn sie zuvor "
 "eingegeben wurden. Dies geschieht nur bei der Steuerberechnung."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:330
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:328
 msgid "Test connection"
 msgstr "Verbindung testen"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:332
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:330
 msgid ""
 "After entering all the above information into the *AvaTax* setup on Odoo, "
 "click :guilabel:`Test connection`. This ensures the :guilabel:`API ID` "
@@ -30118,11 +30085,11 @@ msgstr ""
 "der :guilabel:`API-SCHLÜSSEL` korrekt sind und eine Verbindung zwischen Odoo "
 "und der *AvaTax*-Anwendungsprogrammierschnittstelle (API) hergestellt wird."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:337
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:335
 msgid "Sync parameters"
 msgstr "Parameter synchronisieren"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:339
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:337
 msgid ""
 "Upon finishing the configuration and settings of the *AvaTax* section, click "
 "the :guilabel:`Sync Parameters` button. This action synchronizes the "
@@ -30132,7 +30099,7 @@ msgstr ""
 "klicken Sie auf die Schaltfläche :guilabel:`Parameter synchronisieren`. "
 "Diese Aktion synchronisiert die Befreiungscodes aus *AvaTax*."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:347
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:345
 msgid ""
 "Next, navigate to :menuselection:`Accounting app --> Configuration --> "
 "Accounting: Fiscal Positions`. A :guilabel:`Fiscal Position` is listed "
@@ -30145,13 +30112,13 @@ msgstr ""
 "Klicken Sie darauf, um die Konfigurationsseite für die Steuerposition von "
 "*AvaTax* zu öffnen."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:351
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:349
 msgid "Here, ensure that the :guilabel:`Use AvaTax API` checkbox is ticked."
 msgstr ""
 "Stellen Sie hier sicher, dass das Kontrollkästchen :guilabel:`AvaTax-API "
 "verwenden` aktiviert ist."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:353
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:351
 msgid ""
 "Optionally, tick the checkbox next to the field labeled: :guilabel:`Detect "
 "Automatically`. Should this option be ticked, then, Odoo will automatically "
@@ -30162,7 +30129,7 @@ msgstr ""
 "aktiviert ist, wendet Odoo diese :guilabel:`Steuerposition` automatisch auf "
 "Transaktionen in Odoo an."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:357
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:355
 msgid ""
 "Enabling :guilabel:`Detect Automatically` also makes specific parameters, "
 "such as :guilabel:`VAT required`, :guilabel:`Foreign Tax "
@@ -30179,7 +30146,7 @@ msgstr ""
 "leer lassen, wird sichergestellt, dass alle Berechnungen unter Verwendung "
 "dieser :guilabel:`Steuerposition` durchgeführt werden."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:364
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:362
 msgid ""
 "Should the :guilabel:`Detect Automatically` checkbox not be ticked, each "
 "customer will need to have the :guilabel:`Fiscal Position` set on "
@@ -30195,7 +30162,7 @@ msgstr ""
 "Kunden` oder :menuselection:`Kontakte --> Kontakte`. Wählen Sie dann einen "
 "Kunden oder Kontakt aus, für den Sie die Steuerposition festlegen möchten."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:370
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:368
 msgid ""
 "Navigate to the :guilabel:`Sales and Purchase` tab, and down to the section "
 "labeled, :guilabel:`Fiscal Position`. Set the :guilabel:`Fiscal Position` "
@@ -30205,17 +30172,17 @@ msgstr ""
 "nach unten zum Abschnitt :guilabel:`Steuerposition`. Legen Sie im "
 "Feld :guilabel:`Steuerposition` die Steuerposition für den Kunden fest."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:375
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:436
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:373
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:434
 #: ../../content/applications/finance/accounting/taxes/eu_distance_selling.rst:39
 msgid ":doc:`fiscal_positions`"
 msgstr ":doc:`fiscal_positions`"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:378
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:376
 msgid "AvaTax accounts"
 msgstr "AvaTax-Konten"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:380
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:378
 msgid ""
 "Upon selecting the checkbox option for :guilabel:`Use AvaTax API` a "
 "new :guilabel:`AvaTax` tab appears. Click into this tab to reveal two "
@@ -30225,7 +30192,7 @@ msgstr ""
 "aktivieren, erscheint ein neuer Reiter :guilabel:`AvaTax`. Klicken Sie auf "
 "diesen Reiter, um zwei verschiedene Einstellungen zu sehen."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:383
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:381
 msgid ""
 "The first setting is the :guilabel:`AvaTax Invoice Account`, while the "
 "second is, :guilabel:`AvaTax Refund Account`. Ensure both accounts are set "
@@ -30238,12 +30205,12 @@ msgstr ""
 "gewährleisten. Konsultieren Sie einen Wirtschaftsprüfer (CPA) für "
 "spezifische Anleitungen zur Einrichtung beider Konten."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:387
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:385
 msgid "Click :guilabel:`Save` to implement the changes."
 msgstr ""
 "Klicken Sie auf :guilabel:`Speichern`, um die Änderungen zu übernehmen."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:392
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:390
 msgid ""
 "The *AvaTax* integration is available on sale orders and invoices with the "
 "included *AvaTax* fiscal position."
@@ -30251,7 +30218,7 @@ msgstr ""
 "Die *Avatax*-Integration ist bei Verkaufsaufträgen und Rechnungen mit der "
 "enthaltenen *Avatax*-Steuerposition verfügbar."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:396
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:394
 msgid ""
 "Additionally, there is a :guilabel:`Tax Mapping` tab and :guilabel:`Account "
 "Mapping` tab in the :guilabel:`Automatic Tax Mapping (AvaTax)` fiscal "
@@ -30266,11 +30233,11 @@ msgstr ""
 "zuzugreifen, navigieren Sie zu :menuselection:`Buchhaltung --> Konfiguration "
 "--> Buchhaltung: Steuerpositionen`."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:402
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:400
 msgid "Product category mapping"
 msgstr "Zuordnung der Produktkategorie"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:404
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:402
 msgid ""
 "Before using the integration, specify an :guilabel:`Avatax Category` on the "
 "product categories. Navigate to :menuselection:`Inventory app --> "
@@ -30291,11 +30258,11 @@ msgstr ""
 msgid "Specify AvaTax Category on products."
 msgstr "Avatax-Kategorie auf Produkten angeben."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:415
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:413
 msgid "Product mapping"
 msgstr "Produktzuordnung"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:417
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:415
 msgid ""
 "*AvaTax* Categories may be set on individual products, as well. To set "
 "the :guilabel:`Avatax Category` navigate to :menuselection:`Inventory app --"
@@ -30315,7 +30282,7 @@ msgstr ""
 "klicken Sie auf :guilabel:`Mehr suchen …`, um eine Kategorie zu finden, die "
 "nicht aufgeführt ist."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:424
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:422
 msgid ""
 "If both the product, and its category, have an :guilabel:`AvaTax Category` "
 "set, the product's :guilabel:`AvaTax Category` takes precedence."
@@ -30328,7 +30295,7 @@ msgstr ""
 msgid "Override product categories as needed."
 msgstr "Produktkategorien nach Bedarf überschreiten."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:432
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:430
 msgid ""
 "Mapping an :guilabel:`AvaTax Category` on either the *Product* or *Product "
 "Category* should be completed for every *Product* or *Product Category*, "
@@ -30338,15 +30305,15 @@ msgstr ""
 "zur *Produktkategorie* sollte für jedes *Produkt* oder jede "
 "*Produktkategorie* vorgenommen werden, je nachdem, welche Route gewählt wird."
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:437
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:435
 msgid ":doc:`avatax/avatax_use`"
 msgstr ":doc:`avatax/avatax_use`"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:438
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:436
 msgid ":doc:`avatax/avalara_portal`"
 msgstr ":doc:`avatax/avalara_portal`"
 
-#: ../../content/applications/finance/accounting/taxes/avatax.rst:439
+#: ../../content/applications/finance/accounting/taxes/avatax.rst:437
 #: ../../content/applications/finance/accounting/taxes/avatax/avalara_portal.rst:258
 #: ../../content/applications/finance/accounting/taxes/avatax/avatax_use.rst:165
 msgid ""
@@ -47565,7 +47532,7 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/india.rst:317
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:281
 #: ../../content/applications/finance/fiscal_localizations/taiwan.rst:141
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:865
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:882
 msgid "Workflow"
 msgstr "Arbeitsablauf"
 
@@ -48496,6 +48463,7 @@ msgstr ""
 "Lokalisierung :ref:`installiert <general/install>` ist."
 
 #: ../../content/applications/finance/fiscal_localizations/canada.rst:299
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:411
 msgid ""
 "To enable check printing from Odoo, navigate to :menuselection:`Accounting --"
 "> Configuration --> Settings` and find the :guilabel:`Vendor Payments` "
@@ -48525,6 +48493,7 @@ msgid ":guilabel:`Print Check (Bottom) - CA`"
 msgstr ":guilabel:`Scheck drucken (unten) - CA`"
 
 #: ../../content/applications/finance/fiscal_localizations/canada.rst:309
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:424
 msgid ""
 "Next, choose whether or not to enable the :guilabel:`Multi-Pages Check Stub` "
 "checkbox."
@@ -48549,6 +48518,7 @@ msgstr ""
 "ein Datumsetikett erforderlich ist."
 
 #: ../../content/applications/finance/fiscal_localizations/canada.rst:316
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:428
 msgid ""
 "Once all check configurations are complete, :guilabel:`Save` the settings."
 msgstr ""
@@ -48566,6 +48536,7 @@ msgstr ""
 "checkdepot.net/collections/odoo-checks>`_ werden empfohlen."
 
 #: ../../content/applications/finance/fiscal_localizations/canada.rst:324
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:445
 msgid ":doc:`../accounting/payments/pay_checks`"
 msgstr ":doc:`../accounting/payments/pay_checks`"
 
@@ -51968,7 +51939,6 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/colombia.rst:39
 #: ../../content/applications/finance/fiscal_localizations/guatemala.rst:65
 #: ../../content/applications/finance/fiscal_localizations/malaysia.rst:15
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:49
 #: ../../content/applications/finance/fiscal_localizations/uruguay.rst:49
 msgid "Modules installation"
 msgstr "Modulinstallation"
@@ -58048,7 +58018,7 @@ msgid "Use"
 msgstr "Verwendung"
 
 #: ../../content/applications/finance/fiscal_localizations/france.rst:498
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:850
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:867
 msgid "Format"
 msgstr "Format"
 
@@ -78302,9 +78272,13 @@ msgstr ""
 #: ../../content/applications/finance/fiscal_localizations/philippines.rst:243
 msgid ""
 "To use check payments, :ref:`activate the check payment option <accounting/"
-"pay-checks/configuration>`, then, in the :guilabel:`Check Layout` field, "
+"pay-checks/activate-methods>`, then, in the :guilabel:`Check Layout` field, "
 "select :guilabel:`Print Check - PH`."
 msgstr ""
+"Um Scheckzahlungen zu verwenden, :ref:`aktivieren Sie die "
+"Scheckzahlungsoption <accounting/pay-checks/activate-methods>`, und wählen "
+"Sie dann im Feld :guilabel:`Schecklayout` die Option :guilabel:`Scheck "
+"drucken - PH`."
 
 #: ../../content/applications/finance/fiscal_localizations/philippines.rst:247
 msgid ""
@@ -85046,7 +85020,7 @@ msgid "Vendor Batch Payment view with generated BACS file."
 msgstr "Ansicht der Lieferanten-Sammelzahlung mit generierter BACS-Datei."
 
 #: ../../content/applications/finance/fiscal_localizations/united_kingdom.rst:204
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:557
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:574
 msgid ":doc:`../accounting/payments/batch`"
 msgstr ":doc:`../accounting/payments/batch`"
 
@@ -85582,13 +85556,17 @@ msgstr ""
 msgid "The Package field with the United States package selected."
 msgstr "Das Paket-Feld mit dem ausgewählten United States-Paket."
 
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:49
+msgid "Optional modules"
+msgstr "Optionale Module"
+
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:51
 msgid ""
-":ref:`Install <general/install>` the following modules to get all the "
-"features of the United States localization:"
+"The following modules may be :ref:`installed <general/install>` for "
+"additional functionality specific to the US fiscal localization:"
 msgstr ""
-":ref:`Installieren <general/install>` Sie die folgenden Module, um alle "
-"Funktionen der US-amerikanischen Lokalisierung zu erhalten:"
+"Die folgenden Module können für zusätzliche Funktionalität spezifisch für "
+"die US-Steuerregionalisierung :ref:`installiert <general/install>` werden:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:61
 msgid ":guilabel:`United States - Accounting`"
@@ -86268,23 +86246,24 @@ msgstr ""
 "konfiguriert werden. Jede Zahlungsbedingung kann mit einem Skonto und einer "
 "reduzierten Steuer eingerichtet werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:409
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:408
 msgid ""
-"Be sure the :guilabel:`US Checks Layout` (`l10n_us_check_printing`) module "
-"for the US localization is :ref:`installed <general/install>`."
+"Using checks is still a common payment practice in the US. Be sure the *US "
+"Checks Layout* (`l10n_us_check_printing`) module for the US localization "
+"is :ref:`installed <general/install>`."
 msgstr ""
+"Die Verwendung von Schecks ist in den USA immer noch eine gängige "
+"Zahlungspraxis. Stellen Sie sicher, dass das Modul *US Checks Layout* "
+"(`l10n_us_check_printing`) für die US-Lokalisierung :ref:`installiert "
+"<general/install>` ist."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:412
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:415
 msgid ""
-"To print checks in Odoo, :doc:`enable and configure checks <../accounting/"
-"payments/pay_checks>`."
+"Select a pre-printed or blank :guilabel:`Check Layout` from the drop-down "
+"menu:"
 msgstr ""
-
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:414
-msgid ""
-"In the :guilabel:`Check Layout` field, select one of the available pre-"
-"printed or blank check layouts from the drop-down menu:"
-msgstr ""
+"Wählen Sie ein vorgedrucktes oder leeres :guilabel:`Schecklayout` aus dem "
+"Dropdown-Menü:"
 
 #: ../../content/applications/finance/fiscal_localizations/united_states.rst:417
 msgid ":guilabel:`Print Check (Top) - US`"
@@ -86310,24 +86289,48 @@ msgstr ":guilabel:`Leeren Scheck drucken (mittig) - US`"
 msgid ":guilabel:`Print Blank Check (Bottom) - US`"
 msgstr ":guilabel:`Leeren Scheck drucken (unten) - US`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:425
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:426
 msgid ""
-"For pre-printed layouts, we recommend using `pre-printed checks from "
-"checkdepot.net <https://checkdepot.net/collections/odoo-checks>`_."
+"Optionally set a :guilabel:`Check Top Margin` and :guilabel:`Check Left "
+"Margin`, if required."
 msgstr ""
+"Legen Sie optional einen :guilabel:`oberen Scheckrand` und :guilabel:`linken "
+"Scheckrand` fest, falls erforderlich."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:427
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:431
 msgid ""
-"For blank layouts, high-security check paper is required, such as `blank "
-"checks from checkdepot.net <https://checkdepot.net/collections/blank-check-"
-"paper>`_."
+"Pre-printed check formats (non-blank checks) require pre-printed paper from "
+"a third-party vendor. `Pre-printed checks from checkdepot.net <https://"
+"checkdepot.net/collections/odoo-checks>`_ are recommended."
 msgstr ""
+"Vorgedruckte Scheckformate (nicht leere Schecks) erfordern vorgedrucktes "
+"Papier von einem Drittanbieter. `Vorgedruckte Schecks von checkdepot.net "
+"<https://checkdepot.net/collections/odoo-checks>`_ werden empfohlen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:433
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:437
+msgid ""
+"Use one of the blank check formats to print the information of the check ad-"
+"hoc when needed. This requires the use of both :abbr:`MICR (Magnetic Ink "
+"Character Recognition)` ink or toner complying with the standards for check "
+"printing, as well as `check quality paper <https://checkdepot.net/"
+"collections/blank-check-paper/products/top-format-blank-check-paper-"
+"cdt164>`_. Other information, such as the company name, bank account, and "
+"check number, is printed when creating the blank check."
+msgstr ""
+"Verwenden Sie eines der leeren Scheckformate, um die Informationen des "
+"Schecks bei Bedarf ad-hoc zu drucken. Dies erfordert sowohl die Verwendung "
+"von :abbr:`MICR (Magnetic Ink Character Recognition)`-Tinte oder -Toner, die "
+"den Standards für den Scheckdruck entsprechen, als auch `Scheckpapier in "
+"geeigneter Qualität <https://checkdepot.net/collections/blank-check-paper/"
+"products/top-format-blank-check-paper-cdt164>`_. Andere Informationen wie "
+"Firmenname, Bankkonto und Schecknummer werden beim Erstellen des leeren "
+"Schecks gedruckt."
+
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:450
 msgid "ACH - electronic transfers"
 msgstr "ACH - elektronische Überweisungen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:435
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:452
 msgid ""
 "Automated Clearing House (ACH) payments are a modern way to transfer funds "
 "electronically between bank accounts, replacing traditional paper-based "
@@ -86339,11 +86342,11 @@ msgstr ""
 "traditionelle papierbasierte Verfahren. |ACH|-Zahlungen werden häufig für "
 "Direktüberweisungen, Rechnungszahlungen und Geschäftstransaktionen verwendet."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:440
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:457
 msgid "Receive ACH payments: payment provider integration"
 msgstr "ACH-Zahlungen empfangen: Integration von Zahlungsanbietern"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:442
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:459
 msgid ""
 "|ACH| payments are supported by *Authorize.net* and *Stripe* payment "
 "integrations in Odoo."
@@ -86351,7 +86354,7 @@ msgstr ""
 "|ACH|-Zahlungen werden von den Zahlungsintegrationen *Authorize.net* und "
 "*Stripe* in Odoo unterstützt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:445
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:462
 msgid ""
 ":ref:`Setting up Authorize.net for ACH payments (Odoo) <authorize/"
 "ach_payments>`"
@@ -86359,7 +86362,7 @@ msgstr ""
 ":ref:`Einrichtung von Authorize.net für ACH-Zahlungen (Odoo) <authorize/"
 "ach_payments>`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:446
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:463
 msgid ""
 "`Authorize.net's ACH payment processing for small businesses documentation "
 "<https://www.authorize.net/resources/blog/2021/ach-payments-for-small-"
@@ -86369,7 +86372,7 @@ msgstr ""
 "Unternehmen <https://www.authorize.net/resources/blog/2021/ach-payments-for-"
 "small-businesses.html>`_"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:448
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:465
 msgid ""
 ":doc:`Setting up Stripe for ACH payments (Odoo) <../payment_providers/"
 "stripe>`"
@@ -86377,7 +86380,7 @@ msgstr ""
 ":doc:`Einrichtung von Stripe für ACH-Zahlungen (Odoo) <../payment_providers/"
 "stripe>`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:449
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:466
 msgid ""
 "`Stripe's ACH Direct Debit documentation <https://docs.stripe.com/payments/"
 "ach-debit>`_"
@@ -86385,11 +86388,11 @@ msgstr ""
 "`Stripes ACH Direct Debit-Dokumentation <https://docs.stripe.com/payments/"
 "ach-debit>`_"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:454
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:471
 msgid "Send payments: NACHA files"
 msgstr "Zahlungen versenden: NACHA-Dateien"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:456
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:473
 msgid ""
 "Odoo can generate a National Automated Clearing House Association (NACHA) "
 "compatible |ACH| file to send to a company's bank. For each individual "
@@ -86402,7 +86405,7 @@ msgstr ""
 "Lieferanten bezahlen möchte, muss ein |NACHA|-Konfigurationsabschnitt in der "
 "Odoo-Datenbank ausgefüllt werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:463
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:480
 msgid ""
 "First, navigate to the :menuselection:`Accounting app --> Configuration --> "
 "Journals`. Open the bank journal and click into the :guilabel:`Outgoing "
@@ -86420,7 +86423,7 @@ msgstr ""
 "NACHA (National Automated Clearing House Association)-"
 "Konfigurationseinstellungen in Odoo."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:470
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:487
 msgid ""
 "The following |NACHA| configuration information is normally provided by the "
 "company's financial institution once they have been approved to send "
@@ -86430,7 +86433,7 @@ msgstr ""
 "Finanzinstitut des Unternehmens bereitgestellt, sobald es für das Senden von "
 "Zahlungen über sein Konto zugelassen wurde."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:473
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:490
 msgid ""
 "Under the section labeled, :guilabel:`NACHA configuration` are the fields "
 "required to generate a |NACHA| compatible |ACH| file to send to a company's "
@@ -86447,7 +86450,7 @@ msgstr ""
 "Allgemeinen je nach Bankstandort. Diese Nummer wird normalerweise während "
 "der ersten Kontoeinrichtung bereitgestellt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:479
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:496
 msgid ""
 "Next, enter the registered name of the financial institution in the field "
 "called, :guilabel:`Destination`. This information is provided by the bank or "
@@ -86457,7 +86460,7 @@ msgstr ""
 "Feld :guilabel:`Ziel` ein. Diese Information wird von der Bank oder "
 "Kreditgenossenschaft bereitgestellt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:482
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:499
 msgid ""
 "Following the :guilabel:`Destination` field is the :guilabel:`Immediate "
 "Origin` field. Enter the 9-digit company ID or Employer Identification "
@@ -86469,7 +86472,7 @@ msgstr ""
 "Identification Number (EIN) in dieses Feld ein. Diese Information wird vom "
 "Finanzinstitut bereitgestellt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:486
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:503
 msgid ""
 "Next, enter the :guilabel:`Company Identification` number, which is a 10-"
 "digit number made from combining the 9-digit company ID or Employer "
@@ -86486,7 +86489,7 @@ msgstr ""
 "unterscheidet, um zu überprüfen, dass sie korrekt ist, da diese Nummer für |"
 "ACH|-zugelassene Konten bereitgestellt wird."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:492
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:509
 msgid ""
 "Enter the :guilabel:`Originating DFI Identification` number next, which "
 "should contain an assigned 8-digit number from the financial institution."
@@ -86495,7 +86498,7 @@ msgstr ""
 "ein, die eine zugewiesene 8-stellige Nummer vom Finanzinstitut enthalten "
 "sollte."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:496
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:513
 msgid ""
 "Enter the numerical values in this section *exactly* as the company's "
 "financial institution (e.g. bank or credit union) has provided them, "
@@ -86513,7 +86516,7 @@ msgstr ""
 "NACHA-Einstellungen mit hervorgehobenem Dropdown-Menü für den Standard-Entry-"
 "Class-Code."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:503
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:520
 msgid ""
 "Two options are available for the next field: :guilabel:`Standard Entry "
 "Class Code`. Select the drop-down menu to the right of the field and pick "
@@ -86529,7 +86532,7 @@ msgstr ""
 "Information wird vom Finanzinstitut bereitgestellt. Standardmäßig "
 "ist :guilabel:`Corporate Credit or Debit (CCD)` ausgewählt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:508
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:525
 msgid ""
 "Finally, the last option is for :guilabel:`Generated Balanced Files`. Tick "
 "the checkbox to the right of the field to enable :guilabel:`Generated "
@@ -86542,7 +86545,7 @@ msgstr ""
 "Buchhalter oder Finanzberater des Unternehmens, um eine fundierte "
 "Entscheidung für dieses Feld zu treffen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:512
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:529
 msgid ""
 "Manually save the configuration by clicking the :icon:`fa-cloud-"
 "upload` :guilabel:`(cloud upload)` icon, or navigate away from this screen "
@@ -86553,21 +86556,21 @@ msgstr ""
 "diesem Bildschirm weg, um automatisch zu speichern. Die Konfiguration ist "
 "nun abgeschlossen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:518
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:535
 msgid "Create batch payment"
 msgstr "Sammelzahlung erstellen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:520
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:537
 msgid "Now, record each payment in Odoo using the |NACHA| payment method."
 msgstr "Erfassen Sie nun jede Zahlung in Odoo mit der Zahlungsmethode |NACHA|."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:523
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:540
 msgid ""
 ":ref:`Register Payments in Odoo <accounting/payments/from-invoice-bill>`"
 msgstr ""
 ":ref:`Zahlungen in Odoo erfassen <accounting/payments/from-invoice-bill>`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:526
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:543
 msgid ""
 "Be aware of the cut-off time for same-day payments. Either the file needs to "
 "have a future date associated with each payment or the file needs to be sent "
@@ -86582,7 +86585,7 @@ msgstr ""
 "die genaue Cut-off-Zeit für die Verarbeitung von Zahlungen am selben Tag zu "
 "erfahren."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:531
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:548
 msgid ""
 "Once all the payments to be included in the |NACHA| |ACH| file have been "
 "made, a batch payment needs to be made from the :icon:`fa-"
@@ -86592,7 +86595,7 @@ msgstr ""
 "sollen, getätigt wurden, muss eine Stapelzahlung über das :icon:`fa-"
 "cog` :guilabel:`Aktion`-Menü erstellt werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:534
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:551
 msgid ""
 "To create the batch payments, access the payments page, by navigating "
 "to :menuselection:`Accounting --> Vendors --> Payments`. Select all the "
@@ -86614,14 +86617,14 @@ msgstr ""
 "Auf dem Zahlungsbildschirm ist das Aktionsmenü mit ausgewählter Option "
 "\"Stapelzahlung erstellen\" hervorgehoben."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:543
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:560
 msgid ""
 "All payments in the batch **must** share the same |NACHA| payment method."
 msgstr ""
 "Alle Zahlungen im Stapel **müssen** dieselbe Zahlungsmethode |NACHA| "
 "verwenden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:545
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:562
 msgid ""
 "Next, navigate to the batched payment (:menuselection:`Accounting --> "
 "Vendors --> Batch Payments`). Click into the payment recently created and "
@@ -86644,7 +86647,7 @@ msgstr ""
 "Die Registerkarte für exportierte Dateien ist in der Stapelzahlung "
 "hervorgehoben, wobei der Download eingekreist ist."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:553
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:570
 msgid ""
 "If any adjustments need to be made, click the :guilabel:`Re-generate Export "
 "File` button to recreate a new |NACHA| |ACH| file."
@@ -86653,18 +86656,18 @@ msgstr ""
 "Schaltfläche :guilabel:`Exportdatei neu generieren`, um eine neue |NACHA| |"
 "ACH|-Datei zu erstellen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:558
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:897
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:575
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:914
 msgid ":doc:`Europe's direct debiting <../accounting/payments/sepa_payments>`"
 msgstr ""
 ":doc:`Europäische Lastschriftverfahren <../accounting/payments/"
 "sepa_payments>`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:563
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:580
 msgid "Pay by direct deposit"
 msgstr "Per Direktüberweisung zahlen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:565
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:582
 msgid ""
 "Direct deposit is an electronic fund transfer primarily used in the United "
 "States, in which money is sent directly to a bank account without the use of "
@@ -86677,7 +86680,7 @@ msgstr ""
 "Einzahlung zu verwenden. Odoo bietet Direktüberweisung über einen "
 "internationalen Geldtransferdienst namens `Wise.com <https://wise.com/>`_ an."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:570
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:587
 msgid ""
 "Wise provides an |API|, invoicing tools, and business accounts. Businesses "
 "can send and receive payments using Wise's cross-border payment technology "
@@ -86688,16 +86691,16 @@ msgstr ""
 "Zahlungstechnologie von Wise senden und empfangen, ohne alles von Grund auf "
 "neu aufbauen zu müssen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:573
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:590
 msgid "This feature can be used to pay vendor bills."
 msgstr ""
 "Diese Funktion kann verwendet werden, um Lieferantenrechnungen zu bezahlen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:579
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:596
 msgid "Wise configuration"
 msgstr "Wise-Konfiguration"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:581
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:598
 msgid ""
 "Wise configuration involves three main steps: creating a Wise account, "
 "linking a bank account to the Wise account, and generating |API| tokens from "
@@ -86708,7 +86711,7 @@ msgstr ""
 "API|-Tokens aus dem Wise-Konto. Diese Schritte werden im Folgenden "
 "detailliert beschrieben:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:584
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:601
 msgid ""
 "Navigate to `Wise.com <https://wise.com/>`_ and click :guilabel:`Sign-Up` to "
 "create an account."
@@ -86716,7 +86719,7 @@ msgstr ""
 "Navigieren Sie zu `Wise.com <https://wise.com/>`_ und klicken Sie "
 "auf :guilabel:`Sign-Up`, um ein Konto zu erstellen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:585
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:602
 msgid ""
 "Select :guilabel:`Business Account` and finish providing company and "
 "personal user details to complete the sign-up process."
@@ -86725,7 +86728,7 @@ msgstr ""
 "zum Unternehmen und zum persönlichen Benutzer, um den Registrierungsvorgang "
 "abzuschließen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:588
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:605
 msgid ""
 "Wise may require additional verification documents depending on the business "
 "type and country. This process can take 1–3 business days."
@@ -86733,7 +86736,7 @@ msgstr ""
 "Wise kann je nach Unternehmensart und Land zusätzliche "
 "Verifizierungsdokumente anfordern. Dieser Prozess kann 1–3 Werktage dauern."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:591
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:608
 msgid ""
 "Navigate to the account settings by clicking the :guilabel:`Company Name` in "
 "the top-right corner of the dashboard."
@@ -86742,7 +86745,7 @@ msgstr ""
 "den :guilabel:`Firmennamen` in der oberen rechten Ecke des Dashboards "
 "klicken."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:593
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:610
 msgid ""
 "Select :menuselection:`Payment Methods --> Connected bank accounts` and "
 "click :guilabel:`Connect Your Bank Account`."
@@ -86750,7 +86753,7 @@ msgstr ""
 "Wählen Sie :menuselection:`Payment Methods --> Connected bank accounts` und "
 "klicken Sie auf :guilabel:`Connect Your Bank Account`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:595
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:612
 msgid ""
 "Search for the bank and add the bank account information. This bank account "
 "will be configured in Odoo as well."
@@ -86758,7 +86761,7 @@ msgstr ""
 "Suchen Sie nach der Bank und fügen Sie die Bankkontoinformationen hinzu. "
 "Dieses Bankkonto wird auch in Odoo konfiguriert."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:598
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:615
 msgid ""
 "Go to the account settings by clicking the :guilabel:`Company Name` in the "
 "top-right corner of the dashboard."
@@ -86767,7 +86770,7 @@ msgstr ""
 "den :guilabel:`Firmennamen` in der oberen rechten Ecke des Dashboards "
 "klicken."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:600
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:617
 msgid ""
 "Select :menuselection:`Integration and Tools --> API Tokens` and "
 "click :guilabel:`Add new token`."
@@ -86775,7 +86778,7 @@ msgstr ""
 "Wählen Sie :menuselection:`Integration and Tools --> API Tokens` und klicken "
 "Sie auf :guilabel:`Add new token`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:601
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:618
 msgid ""
 "Add a description and select :guilabel:`Full Access`, then "
 "click :guilabel:`Create Token`."
@@ -86783,18 +86786,18 @@ msgstr ""
 "Fügen Sie eine Beschreibung hinzu und wählen Sie :guilabel:`Full Access`, "
 "dann klicken Sie auf :guilabel:`Create Token`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:602
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:619
 msgid ""
 "Find the token under :guilabel:`API tokens` and click :guilabel:`Reveal key`."
 msgstr ""
 "Finden Sie das Token unter :guilabel:`API tokens` und klicken Sie "
 "auf :guilabel:`Reveal key`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:603
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:620
 msgid "Copy the token to the clipboard."
 msgstr "Kopieren Sie den Token in die Zwischenablage."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:608
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:625
 msgid ""
 "Odoo configuration involves four main steps: installing the Wise module, "
 "adding Wise |API| credentials, adding the company bank account, and adding "
@@ -86805,7 +86808,7 @@ msgstr ""
 "Bankkontos und Hinzufügen des Lieferanten-Bankkontos. Diese Schritte werden "
 "im Folgenden detailliert beschrieben:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:612
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:629
 msgid ""
 "In the Odoo database, :ref:`install <general/install>` the :guilabel:`United "
 "States - Direct Deposit` module."
@@ -86813,7 +86816,7 @@ msgstr ""
 ":ref:`Installieren <general/install>` Sie in der Odoo-Datenbank das "
 "Modul :guilabel:`United States - Direct Deposit`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:616
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:633
 msgid ""
 "To see the module in search results, remove the :doc:`Apps filter <../../"
 "general/apps_modules>` from the search bar."
@@ -86821,7 +86824,7 @@ msgstr ""
 "Um das Modul in den Suchergebnissen zu sehen, entfernen Sie den :doc:`Apps-"
 "Filter <../../general/apps_modules>` aus der Suchleiste."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:619
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:636
 msgid ""
 "Go to :menuselection:`Accounting app --> Configuration --> Settings` and "
 "scroll down to the :guilabel:`Vendor Payments` section."
@@ -86830,7 +86833,7 @@ msgstr ""
 "Einstellungen` und scrollen Sie nach unten zum Abschnitt :guilabel:`Vendor "
 "Payments`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:621
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:638
 msgid ""
 "In the setting for :guilabel:`U.S. Direct Deposit (via Wise)`, enter "
 "the :guilabel:`Wise API token` generated in Wise."
@@ -86838,7 +86841,7 @@ msgstr ""
 "Geben Sie in der Einstellung für :guilabel:`U.S. Direct Deposit (via Wise)` "
 "das in Wise generierte :guilabel:`Wise API token` ein."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:624
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:641
 msgid ""
 "Click :icon:`fa-plug` :guilabel:`Connect to Wise` to ensure the connection "
 "is established between the Odoo database and the Wise account."
@@ -86857,11 +86860,11 @@ msgstr ""
 "die Verbindung zwischen der Odoo-Datenbank und dem Wise-Konto hergestellt "
 "wurde."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:631
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:648
 msgid "Create the company and vendor bank accounts:"
 msgstr "Erstellen Sie die Firmen- und Lieferanten-Bankkonten:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:633
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:650
 msgid ""
 "Go to the :guilabel:`Contacts` app and select the company/vendor's contact "
 "card."
@@ -86869,7 +86872,7 @@ msgstr ""
 "Gehen Sie zur App :guilabel:`Kontakte` und wählen Sie die Kontaktkarte des "
 "Unternehmens/Lieferanten aus."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:634
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:651
 msgid ""
 "Switch to the :guilabel:`Accounting` tab and click on the :guilabel:`Bank "
 "accounts` field, then click :guilabel:`Create`."
@@ -86885,7 +86888,7 @@ msgstr ""
 "Klicken Sie auf das Feld Bank accounts und dann auf Create, um die "
 "Bankkontodaten einzugeben."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:640
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:657
 msgid ""
 "Click  on the :guilabel:`Bank` field, then select the bank from the list, or "
 "click :guilabel:`Search more` if it's not visible. If the bank isn't listed, "
@@ -86904,7 +86907,7 @@ msgstr ""
 "Klicken Sie auf das Feld Bank accounts, wählen Sie dann die Bank aus oder "
 "erstellen Sie sie."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:647
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:664
 msgid ""
 "Finally, enter the company bank account information (linked in Wise) or "
 "vendor bank account information, and click :guilabel:`Save`."
@@ -86913,7 +86916,7 @@ msgstr ""
 "verknüpft) oder zum Lieferanten-Bankkonto ein und klicken Sie "
 "auf :guilabel:`Save`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:650
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:667
 msgid ""
 "The :guilabel:`Bank accounts` field in the :guilabel:`Accounting` tab should "
 "now display the newly added bank account."
@@ -86927,18 +86930,18 @@ msgstr ""
 "Geben Sie die Informationen zum Firmen-/Lieferanten-Bankkonto ein und "
 "klicken Sie dann auf Save."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:656
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:673
 msgid "Repeat these steps for the **vendor** bank account."
 msgstr "Wiederholen Sie diese Schritte für das **Lieferanten**-Bankkonto."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:659
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:676
 msgid ""
 "To avoid errors when initiating payments to the vendor, ensure the following:"
 msgstr ""
 "Um Fehler bei der Veranlassung von Zahlungen an den Lieferanten zu "
 "vermeiden, stellen Sie Folgendes sicher:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:661
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:678
 msgid ""
 "Verify the destination bank account with the vendor, then mark it "
 "as :ref:`Trusted <accounting/batch/bank-accounts>`."
@@ -86946,12 +86949,12 @@ msgstr ""
 "Überprüfen Sie das Ziel-Bankkonto beim Lieferanten und markieren Sie es dann "
 "als :ref:`Vertrauenswürdig <accounting/batch/bank-accounts>`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:663
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:680
 msgid "Select the correct :guilabel:`Bank Account Type` (checking or savings)."
 msgstr ""
 "Wählen Sie den korrekten :guilabel:`Bankkontotyp` (Girokonto oder Sparkonto)."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:664
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:681
 msgid ""
 "Select the preferred :guilabel:`Direct Deposit Transfer Type` for the vendor/"
 "destination account. Pricing can be verified directly in Wise."
@@ -86960,7 +86963,7 @@ msgstr ""
 "für das Lieferanten-/Zielkonto. Die Preise können direkt in Wise überprüft "
 "werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:666
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:683
 msgid ""
 "See `Wise US pricing <https://wise.com/us/pricing/business>`__ to calculate "
 "price by feature & transaction amount; for pricing in other countries, "
@@ -86970,7 +86973,7 @@ msgstr ""
 "Preis nach Funktion und Transaktionsbetrag zu berechnen; für Preise in "
 "anderen Ländern wählen Sie das Land oben auf der Seite aus."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:671
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:688
 msgid ""
 "Wise offers a `Sandbox environment <https://sandbox.transferwise.tech/"
 "login>`_ for testing features and integrations."
@@ -86978,7 +86981,7 @@ msgstr ""
 "Wise bietet eine `Sandbox-Umgebung <https://sandbox.transferwise.tech/"
 "login>`_ zum Testen von Funktionen und Integrationen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:674
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:691
 msgid ""
 "Select the appropriate environment to ensure accurate results (*sandbox* for "
 "testing, *production* for real transactions)."
@@ -86986,11 +86989,11 @@ msgstr ""
 "Wählen Sie die entsprechende Umgebung, um genaue Ergebnisse sicherzustellen "
 "(*Sandbox* zum Testen, *Produktion* für echte Transaktionen)."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:678
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:695
 msgid "Pay vendor bills with direct deposit"
 msgstr "Lieferantenrechnungen per Direktüberweisung bezahlen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:680
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:697
 msgid ""
 "After configuring direct deposit in both Wise and Odoo, vendor payments can "
 "be created individually in the Odoo database, batched for transfer, and then "
@@ -87000,12 +87003,12 @@ msgstr ""
 "Lieferantenzahlungen einzeln in der Odoo-Datenbank erstellt, für die "
 "Überweisung gebündelt und dann in Wise bezahlt werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:683
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:700
 msgid ":ref:`Create vendor bills <accounting/vendor_bills/creation>`."
 msgstr ""
 ":ref:`Lieferantenrechnungen erstellen <accounting/vendor_bills/creation>`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:684
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:701
 msgid ""
 ":doc:`Pay the vendor bills <../accounting/payments>` using :guilabel:`U.S. "
 "Direct Deposit` as the :guilabel:`Payment Method` for the transaction."
@@ -87014,7 +87017,7 @@ msgstr ""
 "mit :guilabel:`US-Direktüberweisung` als :guilabel:`Zahlungsmethode` für die "
 "Transaktion."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:686
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:703
 msgid ""
 ":doc:`Create a batch payment <../accounting/payments/batch>`. Batch payments "
 "can include payments from multiple vendors."
@@ -87022,7 +87025,7 @@ msgstr ""
 ":doc:`Erstellen Sie eine Sammelzahlung <../accounting/payments/batch>`. "
 "Sammelzahlungen können Zahlungen von mehreren Lieferanten umfassen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:688
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:705
 msgid ""
 "Confirm the :guilabel:`Batch Type` is :guilabel:`Outbound`, and "
 "click :guilabel:`Initiate payment`. Odoo will redirect to Wise."
@@ -87031,21 +87034,21 @@ msgstr ""
 "und klicken Sie auf :guilabel:`Zahlung initiieren`. Odoo leitet zu Wise "
 "weiter."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:691
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:708
 msgid ""
 "Sign into the Wise account if needed, and see all the pending transactions."
 msgstr ""
 "Melden Sie sich bei Bedarf im Wise-Konto an und sehen Sie alle ausstehenden "
 "Transaktionen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:693
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:710
 msgid ""
 "Review the details and confirm the batch number is the same in Odoo and Wise."
 msgstr ""
 "Überprüfen Sie die Details und bestätigen Sie, dass die Stapelnummer in Odoo "
 "und Wise identisch ist."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:694
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:711
 msgid ""
 "Click :guilabel:`Pay for this batch` or :guilabel:`I've now paid` to pay for "
 "the entire batch."
@@ -87053,7 +87056,7 @@ msgstr ""
 "Klicken Sie auf :guilabel:`Für diesen Stapel bezahlen` oder :guilabel:`Ich "
 "habe jetzt bezahlt`, um für den gesamten Stapel zu bezahlen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:697
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:714
 msgid ""
 "If pop-ups are blocked in the browser settings, Odoo can't redirect to Wise. "
 "Instead, Odoo displays a message stating:"
@@ -87061,7 +87064,7 @@ msgstr ""
 "Wenn Pop-ups in den Browsereinstellungen blockiert sind, kann Odoo nicht zu "
 "Wise weiterleiten. Stattdessen zeigt Odoo eine Meldung an:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:700
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:717
 msgid ""
 "`\"A popup window has been blocked. You may need to change your browser "
 "settings to allow popup windows for this page.\"`"
@@ -87069,7 +87072,7 @@ msgstr ""
 "`\"Ein Popup-Fenster wurde blockiert. Möglicherweise müssen Sie Ihre "
 "Browsereinstellungen ändern, um Pop-up-Fenster für diese Seite zuzulassen.\"`"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:703
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:720
 msgid ""
 "The payment record is still created in Wise, and can be accessed by "
 "clicking :guilabel:`View Batch` on the batch payment."
@@ -87077,21 +87080,21 @@ msgstr ""
 "Der Zahlungsdatensatz wird weiterhin in Wise erstellt und kann durch Klicken "
 "auf :guilabel:`Stapel anzeigen` in der Sammelzahlung aufgerufen werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:707
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:724
 msgid "Cancel a batch payment"
 msgstr "Sammelzahlung stornieren"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:709
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:726
 msgid "To cancel a batch payment, follow these steps:"
 msgstr "Um eine Sammelzahlung zu stornieren, befolgen Sie diese Schritte:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:711
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:728
 msgid "Navigate to :menuselection:`Accounting --> Vendors --> Batch Payments`."
 msgstr ""
 "Navigieren Sie zu :menuselection:`Buchhaltung --> Lieferanten --> "
 "Sammelzahlungen`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:712
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:729
 msgid ""
 "Select the batch payment to cancel, then click :guilabel:`View Batch`. Odoo "
 "will redirect to the batch in Wise. Sign into the Wise account if needed."
@@ -87100,11 +87103,11 @@ msgstr ""
 "auf :guilabel:`Stapel anzeigen`. Odoo leitet zum Stapel in Wise weiter. "
 "Melden Sie sich bei Bedarf im Wise-Konto an."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:714
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:731
 msgid "Click :guilabel:`Cancel batch` in Wise."
 msgstr "Klicken Sie in Wise auf :guilabel:`Stapel stornieren`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:719
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:736
 msgid ""
 "ISO 20022 is a global standard for sending financial information between "
 "banks and payment systems using XML files. It can be thought of as a "
@@ -87114,7 +87117,7 @@ msgstr ""
 "zwischen Banken und Zahlungssystemen unter Verwendung von XML-Dateien. Er "
 "kann als universelle Sprache für Geldnachrichten betrachtet werden."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:722
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:739
 msgid ""
 "This standard helps banks all over the world talk to each other in the same "
 "way, or *language*, so information is transferred correctly, making sending "
@@ -87125,7 +87128,7 @@ msgstr ""
 "korrekt übertragen werden, was das Senden und Empfangen von Geld schneller, "
 "klarer und sicherer macht."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:725
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:742
 msgid ""
 "In Odoo, ISO 20022 files are generated from :ref:`batch payments <l10n_us/"
 "batch-payment>`."
@@ -87133,11 +87136,11 @@ msgstr ""
 "In Odoo werden ISO 20022-Dateien aus :ref:`Stapelzahlungen <l10n_us/batch-"
 "payment>` generiert."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:728
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:745
 msgid "Configurations"
 msgstr "Konfigurationen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:730
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:747
 msgid ""
 "Before creating ISO 20022 records, several configurations must be made, "
 "including :ref:`general settings <l10n_us/settings>`, contact information "
@@ -87151,11 +87154,11 @@ msgstr ""
 "info-company>` sowie Kontakt- und Bankinformationen für alle :ref:`Empfänger "
 "<l10n_us/contact-info-recipient>`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:738
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:755
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:740
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:757
 msgid ""
 "First, navigate to :menuselection:`Acounting app --> Configuration --> "
 "Settings`, scroll to the :guilabel:`Customer Payment` section, and enable "
@@ -87165,7 +87168,7 @@ msgstr ""
 "Einstellungen`, scrollen Sie zum Abschnitt :guilabel:`Kundenzahlung` und "
 "aktivieren Sie die Option :guilabel:`Stapelzahlungen`."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:743
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:760
 msgid ""
 "Then scroll to the :guilabel:`Vendor Payments` section and enable "
 "the :guilabel:`SEPA Credit Transfer / ISO20022` option. Once Enabled, three "
@@ -87182,7 +87185,7 @@ msgstr ""
 "Informationen werden von der Bank zur Identifizierung des Kontos benötigt "
 "und werden der XML-Datei hinzugefügt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:748
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:765
 msgid "Click :guilabel:`Save` after making changes."
 msgstr "Klicken Sie nach Änderungen auf :guilabel:`Speichern`."
 
@@ -87194,7 +87197,7 @@ msgstr ""
 "Die für ISO 20022 konfigurierten Einstellungen auf der Einstellungsseite der "
 "Buchhaltung."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:754
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:771
 msgid ""
 "The :guilabel:`Name Identification` and :guilabel:`Issuer` information are "
 "typically provided by the bank."
@@ -87202,7 +87205,7 @@ msgstr ""
 "Die Informationen :guilabel:`Namensidentifikation` "
 "und :guilabel:`Aussteller` werden in der Regel von der Bank bereitgestellt."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:762
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:779
 msgid ""
 "Ensure the company's address information is correct, as the XML files "
 "generated include the company address. Navigate to "
@@ -87223,11 +87226,11 @@ msgstr ""
 msgid "The company record with address information completed."
 msgstr "Der Unternehmensdatensatz mit ausgefüllten Adressinformationen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:773
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:790
 msgid "Recipient information"
 msgstr "Empfängerinformationen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:775
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:792
 msgid ""
 "The XML file generated contains the address and banking information for "
 "*all* recipients. Open the **Contacts** app and ensure every contact record "
@@ -87246,7 +87249,7 @@ msgstr ""
 "Der Kontaktdatensatz für ein Unternehmen mit ausgefüllten "
 "Adressinformationen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:782
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:799
 msgid ""
 "Next, click into the :guilabel:`Accounting` tab, and ensure at least one "
 "trusted bank account populates the :guilabel:`Banks` field. If no bank is "
@@ -87257,11 +87260,11 @@ msgstr ""
 "Feld :guilabel:`Banken` vorhanden ist. Wenn keine Bank aufgeführt ist, fügen "
 "Sie ein :ref:`neues Bankkonto <l10n_us/add-bank>` hinzu."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:789
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:806
 msgid "Add a bank account"
 msgstr "Ein Bankkonto hinzufügen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:791
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:808
 msgid ""
 "To add a bank account on a contact record, open the **Contacts** app and "
 "click on the contact record, and click into the :guilabel:`Accounting` tab. "
@@ -87278,11 +87281,11 @@ msgstr ""
 "folgenden Felder im Formular aus und klicken Sie dann "
 "auf :guilabel:`Speichern`:"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:796
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:813
 msgid ":guilabel:`Account Number`: Enter the bank account number."
 msgstr ":guilabel:`Kontonummer`: Geben Sie die Bankkontonummer ein."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:797
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:814
 msgid ""
 ":guilabel:`ABA/Routing Number`: Enter the ABA or routing number for the "
 "account."
@@ -87290,7 +87293,7 @@ msgstr ""
 ":guilabel:`ABA/Routing-Nummer`: Geben Sie die ABA- oder Routing-Nummer für "
 "das Konto ein."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:798
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:815
 msgid ""
 ":guilabel:`Account Holder`: Using the drop-down menu, select the owner of "
 "the bank account. The contact name (person or company) populates this field "
@@ -87300,7 +87303,7 @@ msgstr ""
 "des Bankkontos aus. Der Kontaktname (Person oder Unternehmen) wird "
 "standardmäßig in dieses Feld eingetragen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:800
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:817
 msgid ""
 ":guilabel:`Bank`: Using the drop-down menu, select the bank for the account. "
 "If the bank does not appear in the list, add a new bank by "
@@ -87313,7 +87316,7 @@ msgstr ""
 "auf :guilabel:`Neu` klicken und das Formular :guilabel:`Bank erstellen` "
 "ausfüllen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:803
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:820
 msgid ""
 ":guilabel:`Send Money`: Ensure this slider is set to :guilabel:`Trusted`. "
 "The slider and text appears green if the bank account is trusted. If this is "
@@ -87330,7 +87333,7 @@ msgstr ""
 msgid "Bank information on the Create Banks form."
 msgstr "Bankinformationen im Formular Banken erstellen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:811
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:828
 msgid ""
 "Trusted bank accounts appear in green in the :guilabel:`Accounting` tab."
 msgstr ""
@@ -87341,11 +87344,11 @@ msgstr ""
 msgid "A trusted bank account on a contact form."
 msgstr "Ein vertrauenswürdiges Bankkonto in einem Kontaktformular."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:817
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:834
 msgid "Bank journal settings"
 msgstr "Bankjournal-Einstellungen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:819
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:836
 msgid ""
 "Ensure the ISO payment methods appear in the bank journal, and are "
 "configured correctly. Navigate to :menuselection:`Accounting app --> "
@@ -87362,7 +87365,7 @@ msgstr ""
 "Spalte :guilabel:`Zahlungsmethode` sowohl `ISO20022` als auch `U.S. "
 "ISO20022` erscheinen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:824
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:841
 msgid ""
 "Next, ensure all entries listed have the :guilabel:`101404 Outstanding "
 "Payments` account selected in the :guilabel:`Outstanding Payments accounts` "
@@ -87373,11 +87376,11 @@ msgstr ""
 "Spalte :guilabel:`Konten für ausstehende Zahlungen` ausgewählt ist. Dies "
 "ermöglicht Odoo, Journalbuchungen für Zahlungen zu erstellen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:829
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:846
 msgid "ISO20022 vs U.S. ISO20022"
 msgstr "ISO20022 vs. U.S. ISO20022"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:831
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:848
 msgid ""
 "The U.S. ISO20022 is similar to the ISO standard, with some U.S.-specific "
 "rules and formatting."
@@ -87385,7 +87388,7 @@ msgstr ""
 "Der U.S. ISO20022 ist dem ISO-Standard ähnlich, mit einigen "
 "länderspezifischen Regeln und Formatierungen für die USA."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:834
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:851
 msgid ""
 "The U.S. ISO20022 uses ABA routing numbers, which are specific to the U.S., "
 "while the generic ISO20022 uses IBAN numbers."
@@ -87393,71 +87396,71 @@ msgstr ""
 "Der U.S. ISO20022 verwendet ABA-Routing-Nummern, die spezifisch für die USA "
 "sind, während der generische ISO20022 IBAN-Nummern verwendet."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:841
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:858
 msgid "Feature"
 msgstr "Funktion"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:842
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:859
 msgid "Global ISO 20022"
 msgstr "Globaler ISO 20022"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:843
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:860
 msgid "U.S. ISO 20022"
 msgstr "U.S. ISO 20022"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:844
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:861
 msgid "Developed by"
 msgstr "Entwickelt von"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:845
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:862
 msgid "ISO (global organization)"
 msgstr "ISO (globale Organisation)"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:846
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:863
 msgid "U.S. payment system operators (Fed, TCH, NACHA)"
 msgstr "U.S. Zahlungssystembetreiber (Fed, TCH, NACHA)"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:847
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:864
 msgid "Used for"
 msgstr "Verwendet für"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:848
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:865
 msgid "Global & cross-border payments"
 msgstr "Globale & grenzüberschreitende Zahlungen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:849
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:866
 msgid "Domestic U.S. payments"
 msgstr "Inländische U.S. Zahlungen"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:851
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:868
 msgid "XML-based standard"
 msgstr "XML-basierter Standard"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:852
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:869
 msgid "XML (same base) with U.S. data rules"
 msgstr "XML (gleiche Basis) mit U.S. Datenregeln"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:853
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:870
 msgid "Examples"
 msgstr "Beispiele"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:854
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:871
 msgid "SEPA Credit Transfer (Europe), SWIFT MX messages"
 msgstr "SEPA-Überweisung (Europa), SWIFT MX-Nachrichten"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:855
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:872
 msgid "Fedwire ISO 20022, CHIPS ISO 20022"
 msgstr "Fedwire ISO 20022, CHIPS ISO 20022"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:856
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:873
 msgid "Differences"
 msgstr "Unterschiede"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:857
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:874
 msgid "Global fields and formats"
 msgstr "Globale Felder und Formate"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:858
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:875
 msgid ""
 "Trimmed or modified to fit U.S. needs (e.g., ABA routing numbers instead of "
 "IBANs)"
@@ -87465,7 +87468,7 @@ msgstr ""
 "Gekürzt oder angepasst an U.S. Anforderungen (z. B. ABA-Routing-Nummern "
 "statt IBANs)"
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:861
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:878
 msgid ""
 "It is recommended to use the generic ISO20022 for *international* transfers, "
 "and use the U.S. ISO20022 for *domestic* transfers."
@@ -87474,7 +87477,7 @@ msgstr ""
 "Überweisungen zu verwenden und das U.S. ISO20022 für *inländische* "
 "Überweisungen zu nutzen."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:867
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:884
 msgid ""
 "First, :ref:`create <accounting/vendor_bills/creation>` and :ref:`confirm "
 "<accounting/vendor_bills/bill-confirmation>` a vendor bill. Then, click "
@@ -87494,7 +87497,7 @@ msgstr ""
 msgid "The Pay pop-up window configured for ISO20022."
 msgstr "Das Pop-up-Fenster \"Bezahlen\" konfiguriert für ISO20022."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:875
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:892
 msgid ""
 "A green :guilabel:`In Payment` banner now appears on the vendor bill. Next, "
 "navigate to :menuselection:`Accounting --> Vendors --> Payments`, and tick "
@@ -87518,7 +87521,7 @@ msgstr ""
 msgid "A batch payment with the XML file in the chatter."
 msgstr "Eine Stapelzahlung mit der XML-Datei im Chatter."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:885
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:902
 msgid ""
 "Once the XML file is created, the following steps occur **outside** of the "
 "Odoo database."
@@ -87526,7 +87529,7 @@ msgstr ""
 "Sobald die XML-Datei erstellt ist, erfolgen die folgenden Schritte "
 "**außerhalb** der Odoo-Datenbank."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:887
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:904
 msgid ""
 "Log into the bank's online portal or payment system. Most banks that support "
 "ISO 20022 have a special section for `file uploads` or `import payments`. "
@@ -87539,7 +87542,7 @@ msgstr ""
 "erstellte XML ISO 20022-Datei (mit der Endung `.xml`) hoch und importieren "
 "Sie sie in das Banksystem."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:891
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:908
 msgid ""
 "The bank checks the XML file by reading the file and making sure all details "
 "(accounts, amounts, etc.) are valid. The list of payments appears inside the "
@@ -87550,7 +87553,7 @@ msgstr ""
 "Zahlungen erscheint innerhalb der Datei. Überprüfen und bestätigen Sie die "
 "Informationen und klicken Sie dann auf „Genehmigen\" oder „Senden\"."
 
-#: ../../content/applications/finance/fiscal_localizations/united_states.rst:895
+#: ../../content/applications/finance/fiscal_localizations/united_states.rst:912
 msgid ""
 "The bank processes each payment in the file and transfers the funds to the "
 "recipients."
@@ -94260,181 +94263,6 @@ msgstr ""
 "Füllen Sie die Felder :guilabel:`Geheimer Schlüssel` und :guilabel:`Webhook-"
 "Token` mit den im Schritt :ref:`payment_providers/xendit/"
 "configure_dashboard` gespeicherten Informationen aus."
-
-#~ msgid "Registering payment from an invoice or bill"
-#~ msgstr "Zahlung aus einer Ein- oder Ausgangsrechnung registrieren"
-
-#~ msgid ""
-#~ "Once you decide to pay a supplier bill, you can select to pay by check. "
-#~ "You can then print all the payments registered by check. Finally, the "
-#~ "bank reconciliation process will match the checks you sent to suppliers "
-#~ "with actual bank statements."
-#~ msgstr ""
-#~ "Wenn Sie sich entschlossen haben, eine Lieferantenrechnung zu bezahlen, "
-#~ "können Sie die Zahlung per Scheck auswählen. Sie können dann alle per "
-#~ "Scheck registrierten Zahlungen ausdrucken. Schließlich gleicht die "
-#~ "Bankabstimmung die Schecks, die Sie an die Lieferanten geschickt haben, "
-#~ "mit den aktuellen Kontoauszügen ab."
-
-#~ msgid "Activate checks payment methods"
-#~ msgstr "Scheck-Zahlungsmethode aktivieren"
-
-#~ msgid ""
-#~ "To activate the checks payment method, go to :menuselection:`Accounting --"
-#~ "> Configuration --> Settings`, and scroll down to the :guilabel:`Vendor "
-#~ "Payments` section. There, you can activate the payment method as well as "
-#~ "set up the :guilabel:`Check Layout`."
-#~ msgstr ""
-#~ "Um die Zahlungsmethode „Schecks“ zu aktivieren, gehen Sie "
-#~ "zu :menuselection:`Buchhaltung --> Konfiguration --> Einstellungen`, und "
-#~ "scrollen Sie nach unten zum Abschnitt :guilabel:`Lieferantenzahlungen`. "
-#~ "Dort können Sie die Zahlungsmethode aktivieren und das :guilabel:`Scheck-"
-#~ "Layout` einrichten."
-
-#~ msgid ""
-#~ "Once the :guilabel:`Checks` setting is activated, the **Checks** payment "
-#~ "method is automatically set up in the :guilabel:`Outgoing Payments` tabs "
-#~ "of **bank** journals."
-#~ msgstr ""
-#~ "Sobald die Einstellung :guilabel:`Schecks` aktiviert ist, wird die "
-#~ "Zahlungsmethode **Schecks** automatisch in den "
-#~ "Reitern :guilabel:`Ausgehende Zahlungen` der **Bankjournale** "
-#~ "eingerichtet."
-
-#~ msgid ""
-#~ "Some countries require specific modules to print checks; such modules may "
-#~ "be installed by default. For instance, the :ref:`US Checks Layout module "
-#~ "<l10n_us/optional-modules>` is required to :ref:`print US checks <l10n_us/"
-#~ "writing-checks>`."
-#~ msgstr ""
-#~ "Einige Länder benötigen spezifische Module zum Drucken von Schecks; "
-#~ "solche Module können standardmäßig installiert sein. Beispielsweise wird "
-#~ "das :ref:`US Checks Layout-Modul <l10n_us/optional-modules>` benötigt, "
-#~ "um :ref:`US-Schecks zu drucken <l10n_us/writing-checks>`."
-
-#~ msgid "Pay a supplier bill with a check"
-#~ msgstr "Eine Lieferantenrechnungen mit einem Scheck bezahlen"
-
-#~ msgid "Paying a supplier with a check is done in three steps:"
-#~ msgstr ""
-#~ "Das Bezahlen eines Lieferanten mit einem Scheck erfolgt in drei Schritten:"
-
-#~ msgid "registering a payment"
-#~ msgstr "eine Zahlung registrieren"
-
-#~ msgid "printing checks in batch for all registered payments"
-#~ msgstr "Schecks für alle registrierten Zahlungen in Stapeln drucken"
-
-#~ msgid "reconciling bank statements"
-#~ msgstr "Kontoauszüge abstimmen"
-
-#~ msgid "Register a payment by check"
-#~ msgstr "Eine Scheck-Zahlung registrieren"
-
-#~ msgid ""
-#~ "To register a payment, open any supplier bill from the "
-#~ "menu :menuselection:`Purchases --> Vendor Bills`. Once the supplier bill "
-#~ "is validated, you can register a payment. Set the :guilabel:`Payment "
-#~ "Method` to :guilabel:`Checks` and validate the payment."
-#~ msgstr ""
-#~ "Um eine Zahlung zu registrieren, öffnen Sie eine beliebige "
-#~ "Lieferantenrechnung aus dem Menü :menuselection:`Einkäufe --> "
-#~ "Lieferantenrechnungen`. Sobald die Lieferantenrechnung validiert ist, "
-#~ "können Sie eine Zahlung registrieren. Setzen Sie "
-#~ "die :guilabel:`Zahlungsmethode` auf :guilabel:`Schecks` und bestätigen "
-#~ "Sie die Zahlung."
-
-#~ msgid "Print checks"
-#~ msgstr "Schecks drucken"
-
-#~ msgid ""
-#~ "On your :guilabel:`Accounting Dashboard` in the :guilabel:`Bank` Journal, "
-#~ "you can see the number of checks registered. By clicking "
-#~ "on :guilabel:`Checks to print` you have got the possibility to print the "
-#~ "reconciled checks."
-#~ msgstr ""
-#~ "Auf Ihrem :guilabel:`Buchhaltungsdashboard` im :guilabel:`Bank`-Journal "
-#~ "sehen Sie die Anzahl der registrierten Schecks. Wenn Sie "
-#~ "auf :guilabel:`Auszudruckende Schecks` klicken, haben Sie die "
-#~ "Möglichkeit, die abgestimmten Schecks zu drucken."
-
-#~ msgid ""
-#~ "To print all checks in batch, select all payments from the list view and "
-#~ "click on :guilabel:`Print`."
-#~ msgstr ""
-#~ "Um alle Schecks im Stapel zu drucken, wählen Sie alle Zahlungen in der "
-#~ "Listenansicht aus und klicken Sie auf :guilabel:`Drucken`."
-
-#~ msgid ""
-#~ "To use check payments, :ref:`activate the check payment option "
-#~ "<accounting/pay-checks/activate-methods>`, then, in the :guilabel:`Check "
-#~ "Layout` field, select :guilabel:`Print Check - PH`."
-#~ msgstr ""
-#~ "Um Scheckzahlungen zu verwenden, :ref:`aktivieren Sie die "
-#~ "Scheckzahlungsoption <accounting/pay-checks/activate-methods>`, und "
-#~ "wählen Sie dann im Feld :guilabel:`Schecklayout` die "
-#~ "Option :guilabel:`Scheck drucken - PH`."
-
-#~ msgid "Optional modules"
-#~ msgstr "Optionale Module"
-
-#~ msgid ""
-#~ "The following modules may be :ref:`installed <general/install>` for "
-#~ "additional functionality specific to the US fiscal localization:"
-#~ msgstr ""
-#~ "Die folgenden Module können für zusätzliche Funktionalität spezifisch für "
-#~ "die US-Steuerregionalisierung :ref:`installiert <general/install>` werden:"
-
-#~ msgid ""
-#~ "Using checks is still a common payment practice in the US. Be sure the "
-#~ "*US Checks Layout* (`l10n_us_check_printing`) module for the US "
-#~ "localization is :ref:`installed <general/install>`."
-#~ msgstr ""
-#~ "Die Verwendung von Schecks ist in den USA immer noch eine gängige "
-#~ "Zahlungspraxis. Stellen Sie sicher, dass das Modul *US Checks Layout* "
-#~ "(`l10n_us_check_printing`) für die US-Lokalisierung :ref:`installiert "
-#~ "<general/install>` ist."
-
-#~ msgid ""
-#~ "Select a pre-printed or blank :guilabel:`Check Layout` from the drop-down "
-#~ "menu:"
-#~ msgstr ""
-#~ "Wählen Sie ein vorgedrucktes oder leeres :guilabel:`Schecklayout` aus dem "
-#~ "Dropdown-Menü:"
-
-#~ msgid ""
-#~ "Optionally set a :guilabel:`Check Top Margin` and :guilabel:`Check Left "
-#~ "Margin`, if required."
-#~ msgstr ""
-#~ "Legen Sie optional einen :guilabel:`oberen Scheckrand` "
-#~ "und :guilabel:`linken Scheckrand` fest, falls erforderlich."
-
-#~ msgid ""
-#~ "Pre-printed check formats (non-blank checks) require pre-printed paper "
-#~ "from a third-party vendor. `Pre-printed checks from checkdepot.net "
-#~ "<https://checkdepot.net/collections/odoo-checks>`_ are recommended."
-#~ msgstr ""
-#~ "Vorgedruckte Scheckformate (nicht leere Schecks) erfordern vorgedrucktes "
-#~ "Papier von einem Drittanbieter. `Vorgedruckte Schecks von checkdepot.net "
-#~ "<https://checkdepot.net/collections/odoo-checks>`_ werden empfohlen."
-
-#~ msgid ""
-#~ "Use one of the blank check formats to print the information of the check "
-#~ "ad-hoc when needed. This requires the use of both :abbr:`MICR (Magnetic "
-#~ "Ink Character Recognition)` ink or toner complying with the standards for "
-#~ "check printing, as well as `check quality paper <https://checkdepot.net/"
-#~ "collections/blank-check-paper/products/top-format-blank-check-paper-"
-#~ "cdt164>`_. Other information, such as the company name, bank account, and "
-#~ "check number, is printed when creating the blank check."
-#~ msgstr ""
-#~ "Verwenden Sie eines der leeren Scheckformate, um die Informationen des "
-#~ "Schecks bei Bedarf ad-hoc zu drucken. Dies erfordert sowohl die "
-#~ "Verwendung von :abbr:`MICR (Magnetic Ink Character Recognition)`-Tinte "
-#~ "oder -Toner, die den Standards für den Scheckdruck entsprechen, als auch "
-#~ "`Scheckpapier in geeigneter Qualität <https://checkdepot.net/collections/"
-#~ "blank-check-paper/products/top-format-blank-check-paper-cdt164>`_. Andere "
-#~ "Informationen wie Firmenname, Bankkonto und Schecknummer werden beim "
-#~ "Erstellen des leeren Schecks gedruckt."
 
 #~ msgid ":ref:`United States - Payroll <l10n_us/payroll>`"
 #~ msgstr ":ref:`Vereinigte Staaten - Personalabrechnung <l10n_us/payroll>`"
@@ -101824,6 +101652,13 @@ msgstr ""
 #~ msgstr ""
 #~ "Die generische Diagrammvorlage ist für die US-Lokalisierung "
 #~ "vorkonfiguriert."
+
+#~ msgid ""
+#~ ":ref:`Install <general/install>` the following modules to get all the "
+#~ "features of the United States localization:"
+#~ msgstr ""
+#~ ":ref:`Installieren <general/install>` Sie die folgenden Module, um alle "
+#~ "Funktionen der US-amerikanischen Lokalisierung zu erhalten:"
 
 #, fuzzy
 #~ msgid ""
